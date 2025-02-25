@@ -10,7 +10,33 @@
 \usepackage{graphicx}
 \usepackage{wrapfig}
 \usepackage{placeins}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{float}
+
 \graphicspath{ {./images/} }
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstdefinelanguage{RPG}{
+  morekeywords={dcl-s, dcl-c, if, else, endif, for, endfor, eval, execsql, return, begsr, endsr},
+  sensitive=true,
+  morecomment=[l]{//},       % Commenti su una riga (//)
+  morecomment=[s]{/*}{*/},   % Commenti su più righe (/* ... */)
+  morestring=[b]",           % Stringhe racchiuse tra virgolette doppie (")
+  keywordstyle=\color{blue}\bfseries,  % Parole chiave in blu e grassetto
+  commentstyle=\color{gray},           % Commenti in grigio
+  stringstyle=\color{red},             % Stringhe in rosso
+  basicstyle=\ttfamily,                % Testo base in font monospaziato
+  aboveskip=3mm,
+  belowskip=3mm,
+  breaklines=true,
+  breakatwhitespace=true,
+  frame=lines
+}
+
 %% --- Informazioni sulla tesi ---
 %% Per tutti i tipi di tesi
 % Scommentare quello di interesse, o mettete quello che vi pare
@@ -252,6 +278,656 @@ Essendo anche MIO web-based ,è accessibile da qualunque browser senza necessit�
 Fornisce anche informazioni sulle interazioni e scelte degli utenti per analizzare azioni e strategie di vendita.
 
 %----------------------------------------------------
+%https://www.ibm.com/support/pages/node/6120837#labs
+\chapter{Applicazioni utilizzate}
+\section{IBM Rational Developer for i}
+IBM Rational Developer for i (RDi) è un ambiente di sviluppo integrato(IDE) basato su eclipse, IDE open source di proprietà di eclipse foundation.
+RDi è ideato specificatamente per la programmazione in RPG e COBOL.
+
+%https://www.ibm.com/support/pages/system/files/inline-files/Lab02_RDi_editing%20-%20FreeForm_3.pdf
+\subsection{Live Parsing Extensible Editor (LPEX)}
+LPEX è l'editor per la scrittura di sorgenti utilizzato da RDi. Rispetto al suo predecessore SEU, LPEX possiede:
+\begin{itemize}
+    \setlength{\itemsep}{0pt} % Riduce lo spazio tra gli elementi
+    \item Editor visuale a colori
+    \item Capacità di aprire piu sorgenti in contemporanea
+    \item Visualizzazione della struttura per spostamenti rapidi tra le routine, definizioni di file, variabili ecc.
+    \item Creazione guidata di specifiche e procedure
+    \item Controllo della sintassi
+    \item Refactoring
+    \item Tooltip
+    \item Conversione da formato fixed a formato free 
+    \item Compatibilità con comandi di SEU
+    \item Help dotato di manuale RPG
+\end{itemize}
+
+\subsection{Debugger}
+RDi è dotato di funzionalità dedicate al debugging tra cui esecuzione passo passo con possibilità di esplorare singole chiamate, monitoraggio delle variabili e delle espressioni in esecuzione e report degli errori.
+
+
+%https://www.ibm.com/support/pages/system/files/inline-files/Lab01_RDi_intro_2.pdf
+\subsection{Remote Systems Explorer (RSE)}
+Questo IDE permette un accesso diretto ai file sorgente, tabelle e librerie grazie alla integrazione con IBM i.
+Tale integrazione cosente di modificare ed effettuare modifiche del codice da remoto, funzione essenziale per il debugging di programmi web based.
+
+
+
+\section{RPGLE}
+Report Program Generator Language Enhanced è un estensione di RPG, un linguaggio di programmazione sviluppato da IBM nel 1958.
+Viene utilizzato per lo sviluppo di applicazioni aziendali che operano su sistemi IBM.
+
+\subsection{Caratteristiche "storiche" (RPG)}
+Linguaggio compilato, spartano ed essenziale,RPG (Report Program Generator) è ancora oggi è il più compatto fra gli HLL (Linguaggi ad alto livello).
+Un programma per aggiornare un campo su tutti i record di un file comprende al massimo soltanto quattro istruzioni.
+
+RPG è un linguaggio nato per la produzione di stampe in batch con un flusso di elaborazione rigidamente predefinito.
+\\
+Un programma tipico di stampa prevede un flusso standard:
+\begin{itemize}
+    \setlength{\itemsep}{0pt} % Riduce lo spazio tra gli elementi
+    \item elaborazione dell’intestazione della stampa
+    \item elaborazione delle intestazioni delle rotture di livello
+    \item elaborazione delle righe di dettaglio
+    \item elaborazione dei totali delle rotture di livello
+    \item elaborazione dei totali generali della stampa
+\end{itemize}
+RPG offre pieno supporto a questa modalità di
+elaborazione con il “ciclo RPG”, ovvero un comportamento
+predefinito da parte del programma in presenza di
+determinate istruzioni.
+
+
+RPG è un linguaggio ‘fortemente tipizzato’, perciò qualunque
+elemento a cui il codice fa riferimento (variabile o costante)
+deve essere definito espressamente specificandone tipo di
+dato e dimensione.
+\begin{lstlisting}[language=RPG, caption=Dichiarazione di una variabile alfanumerica di lunghezza 100, label=lst:rpgdeclaration]
+    D Message        S             100A         Messaggio di output
+\end{lstlisting}
+
+
+RPG nasce come linguaggio posizionale. Le istruzioni vanno scritte rispettando il cosiddetto “fixed format”, perciò devono rispettare una struttura fissa basata sul significato delle colonne:
+\begin{itemize}
+    \setlength{\itemsep}{0pt} % Riduce lo spazio tra gli elementi
+    \item La riga è lunga 80 caratteri, retaggio delle schede perforate.
+    \item Le colonne da 1 a 5 e da 81 in poi non sono riservate e possono essere utilizzate per la scrittura di appunti e commenti
+    \item La colonna 6 è riservata all’identificativo della specifica (D per dichiarazioni, C per calcoli ...)
+    \item La colonna 7 definisce la presenza di una riga commento tramite l'uso del simbolo *
+    \item Il formato delle istruzioni, cioè “cosa scrivere dove”, viene specificato nelle posizioni da 7 a 80,  in base alla tipologia di queste ultime. Il significato delle posizioni da 7 a 80 quindi variano in base alla specifica in uso.
+\end{itemize}
+
+\subsection{Caratteristiche moderne (RPGLE)}
+Utilizzabile per scrivere programmi interattivi.
+\begin{itemize}
+    \setlength{\itemsep}{0pt} % Riduce lo spazio tra gli elementi
+    \item Pieno supporto dei terminali video e dell’interazione con l’utente
+    \item Costrutti semantici più aderenti al paradigma della programmazione strutturata e modulare
+    \item Possibilità di realizzare programmi svincolati dal ciclo RPG
+    \item Supporto di SQL embedded
+\end{itemize}
+Totale compatibilità con le versioni precedenti
+\begin{itemize}
+    \setlength{\itemsep}{0pt} % Riduce lo spazio tra gli elementi
+    \item Fino ad oggi anche la versione più recente di RPG accetta e riconosce la sintassi della versione più antica
+    \item Struttura delle istruzioni non più (soltanto) fissa
+\end{itemize}  
+Sono disponibili tre formati:
+\begin{itemize}
+    \item fixed format: il codice è diviso in colonne e ogni colonna assume un significato diverso.
+    A causa della sua scarsa leggibilità e l'avvento del free format, il fixed format non è piu il formato consigliato e viene utilizzato principalmente per il mantenimento dei programmi legacy.
+    \begin{lstlisting}[language=RPG, caption=Codice RPG in fixed format, label=lst:rpgfixed]
+    CL0N01Factor1+++++++Opcode&ExtFactor2+++++++Result++++++++Len++D+HiLoEq...
+    C     IMP           ADD       IVA           TOTALE
+    \end{lstlisting}
+    \item columnar expression format: simile al fixed format, le istruzioni sono vincolate alle colonne ma offre una maggiore libertà sulla scrittura delle espressioni.
+    \begin{lstlisting}[language=RPG, caption=Codice RPG in columnar expression format, label=lst:rpgcolumnar]
+    CL0N01Factor1+++++++Opcode&ExtFactor2+++++++Result++++++++Len++D+HiLoEq...
+    C                   Eval      Totale = Imp + Iva
+    \end{lstlisting}
+    \item free format: il codice non è più vincolato alle colonne. Considerato lo standard per la programmazione in RPG, free format offre una maggiore facilità nella lettura del codice, uno stile di programmazione simile ad altri linguaggi di programmazione moderni e una maggiore libertà sull'indentazione del codice.
+    \begin{lstlisting}[language=RPG, caption=Codice RPG in free format, label=lst:rpgfree]
+    CL0N01Factor1+++++++Opcode&ExtFactor2+++++++Result++++++++Len++D+HiLoEq...
+    C/free
+
+    Totale=Imp+Iva;
+
+    C/end-free
+    
+    \end{lstlisting}
+     
+\end{itemize} 
+
+Tutti i tipi di formato possono coesistere nello stesso codice purchè correttamente separati.
+Fixed e free format utilizzano diversa semantica per definire le specifiche.
+
+\section{DESIGNER Unicloud}
+DESIGNER Unicloud è lo strumento che utiliziamo per creare l'interfaccia grafica delle nostre applicazioni.
+Il designer è completamente web based e acessibile solo tramite un apposito link riservato agli sviluppatori.
+Come molti editor dedicati alle interfacce grafiche, il designer di unicloud permette l'inserimento di diverse risorse.
+
+\subsection{Risorse}
+Le risorse sono componenti di un form con attributi preconfigurati.
+Possiamo raggrupparli in
+\begin{itemize}
+    \item elementi di input (bottoni semplici, radiali, checkbox, caselle di testo, select box, date picker ...)
+    \item elementi testuali (lable, link)
+    \item elementi multimediali (immagini, video, grafici, mappe)
+    \item elementi strutturali (tabelle, celle, pannelli)
+    \item elementi prefabbricati (form)
+\end{itemize}
+
+\subsection{attributi}
+Ogni risorsa non è altro che un elemento dotato di specifici attributi.
+Tramite la modifica di questi attributi possiamo trasformare una risorsa in qualunque modo vogliamo
+Queste modifiche possono essere semplici variazioni estetiche come dimensioni, carattere, colore e allineamento oppure 
+modifiche alla funzione come visibilità, sola lettura, abilitazione dell'elemento, tipo di dato contenuto e riferimenti al database
+è possibile modificare questi attributi in esecuzione e sarà importante per i requisiti del nostro programma.
+
+\subsection{scheletro}
+Per poter interagire con l'interfaccia dobbiamo prima costruire lo scheletro tramite l'apposito menu. 
+Lo scheletro consiste in 2 file.
+Il primo file RPGLE sarà il file dove avveine la programmazione
+il secondo file DSPF contiene una lista di tutti i campi di input presenti nel progetto e il loro tipo (definito dagli attributi del relativo campo di input). 
+Questo file viene richiamato dal file RPGLE per poter ricavare i valori dei campi dell'interfaccia.
+Entrambi i file vengono generati con tutti gli elementi necessari e la struttura del flusso di esecuzione.
+Come dice il nome questo è uno scheletro e sarà nostra responsabilità riempire il programma affinchè l'interfaccia del designer si comporti come richiesto.
+
+
+\section{Quickvision}
+QuickVision è il programma che utiliziamo per costruire e mostrare i dati tramite interfacce personalizzate.
+Sarà possibile creare:
+
+\begin{itemize}
+    \item tabelle semplici
+    \item tabelle interattive
+    \item filtri dinamici locali e globali
+    \item campi di ricerca
+    \item grafici semplici
+    \item grafici dinamici
+    \item scorciatoie a tabelle piu specifiche
+    \item conversione di dati in codici a barre e/o QR
+\end{itemize}
+
+Possiamo visualizzare queste tabelle e grafici singolarmente oppure possiamo mostrarle in un unico pannello di controllo chiamato schema.
+
+Il vantaggio di uno schema sta non solo nel poter visualizzare piu elementi in contemporanea senza navigare costantemente, ma anche nel poter interagire con piu tabelle e grafici all'unisono.
+Per esempio posso filtrare una tabella per un determinato valore e i grafici e tabelle ad essa collegata vengono aggiornate in tempo reale con i nuovi valori.
+
+Il risultato finale sarà un pannello di controllo a cui accedere alle informazioni opportunamente organizzate come richiesto dal cliente
+
+Il progetto è definito da un unico file xml.
+
+\section{Protocollo GSB}
+
+Per poter correttamente utilizzare le risorse aziendali e permettere una successiva modifica del programma da parte dell'azienda, è necessario conoscere il protocollo GSB ossia gli standard di denominazione dell'azienda.
+\subsection{Nomenclatura archivi}
+La nomenclatura degli archivi segue lo schema xxxxxx99z:
+
+xxxxxx identifica il nome del record.
+
+99 è un numero progressivo.
+
+z definisce il tipo di file:
+\begin{itemize}
+    \item F fisico
+    \item I indice
+    \item A indice automatico
+    \item V view
+\end{itemize}
+
+Esempio: BPNANG00F Tabella business partners - anagrafica.
+
+\subsection{Nomenclatura programmi}
+Per i programmi si segue lo schema xxx99z
+
+\begin{itemize}
+    \item xxx è il nome dell'applicazione.
+
+    \item 999 è un numero progressivo.
+    \begin{itemize}
+        \item da 000 a 899 - Gestione, visualizzazione, stampe e utilità
+        \item da 900 a 999 - Pannelli innestati
+    \end{itemize}
+
+    \item z deginisce il tipo di file.
+    \begin{itemize}
+        \item C controller
+        \item R controller tampe
+        \item I controller pannelli innestati
+    \end{itemize}
+\end{itemize}
+\subsection{Nomenclatura campi}
+
+I nomi delle variabili usate nella definizione degli archivi possono essere lunghi al massimo 10 caratteri e
+devono rispettare la seguente struttura:
+XxxYyy(Zzzz)
+
+\begin{itemize}
+    \item Xxx identifica il prefisso dell'archivio oppure il suo uso
+
+    \item Yyy definisce il tipo di campo
+
+    \item Zzzz definisce l'identificativo della variabile. Questo è opzionale.
+    \begin{itemize}
+        \item La serie di caratteri che identifica la variabile deve essere lunga da un minimo di 3 ad un massimo di 4.
+        \item Eliminare le vocali, tranne nel caso in cui la parola da descrivere inizi con una vocale.
+        \item Eliminare le doppie, tranne nel caso in la contrazione porti ad una definizione non significativa.
+        \item Nel caso in cui l’entità da descrivere sia composta da più parole contrarre in funzione della parola più
+        significativa.
+    \end{itemize}
+\end{itemize}
+
+
+\subsection{Nomenclatura record}
+I nomi delle variabili usate nella definizione dei record devono essere lunghi 6 caratteri e devono rispettare la
+seguente struttura:
+QxxYyy
+\begin{itemize}
+    \item Q è fisso e sempre presente all'inizio della variabile
+
+    \item xx definisce l'uso
+    \begin{itemize}
+        \item dg=globale
+        \item dl=locale
+    \end{itemize}
+    \item Yyy identifica il prefisso del record a cui questa variabile fa riferimento
+\end{itemize}
+Esempio: QdgBpn Variabile globale per il record Business partners.
+
+\section{Database}
+Tutti i progetti sono stati realizzati usando un database di test.
+Il database di test è una copia esatta del database aziendale perciò le tabelle sono identiche in quanto struttura ma conterranno dati fittizi e/o obsoleti.
+
+I primi 6 campi di ogni tabella sono riservati alle informazioni riguardo l'utente la data e l'ora dell'immissione e dell'ultimo aggiornamento del record
+
+\subsection{Tabelle dei progetti di apprendimento}
+ANGCF00F
+La tabella angcf00f si occupa di immagazzinare le informazioni anagrafiche dei clienti e dei fornitori. 
+Tra le informazioni disponibili sono presenti nome, indirizzo, ragione sociale, partita iva, telefono, fax, e-mail.
+I record sono identificati dal codice cliente fornitori
+
+ANGFL00F
+Questa tabella viene utilizzata per recuperare informazioni riguardo una determinata filiale come indirizzo, ragione sociale, telefono e email.
+
+La filiale è identificata dal codice filiale FLCDFL
+Il campo FLCDCF contiene la chiave esterna del cliente/fornitore a cui questa filiale è associata.
+
+oclgt00f 
+ofrat00f
+ofrad00f
+%%qflag00f non ho ottenuto la struttura dall'azienda
+tbbse00f
+oclgd00f
+\subsection{Tabelle progetto finale}
+precns00f %data chiusura consultivo
+gstgas00v
+gstass00f
+grtang00f
+dbqang00f 
+cdrazn00f %ultima data calendario
+
+
+
+\chapter{Progetti di apprendimento}
+\section{Scopo}
+Durante io tirocinio sono stati completati un totale di 3 progetti.
+I primi due progetti sono stati svolti al fine di conoscere l'ambiente di sviluppo, imparare il linguaggio utilizzato e prendere dimestichezza con gli strumenti forniti.
+
+\section{Progetto 1, schermata di gestione di clienti e fornitori tramite gestionale unigea}
+Il primo progetto consiste nella realizzazione di una schermata per la visualizazione delle informazioni contenute nella tabella dedicata all'anagrafica dei clienti e dei fornitori.
+
+Da questa lista si potranno mostrare tramite interfacce aggiuntive le informazioni riguardanti uno specifico cliente/fornitore, il link al suo sito internet, gli ordini a lui relativi e le sue filiali qualora ne fosse in possesso.
+
+I dettagli del cliente/fornitore sono modificabili tramite un apposita schermata aperta da un bottone collocato a lato del pannello.
+
+\subsection{ST2010}
+\subsection{ST2011}
+\subsection{ST2012}
+\subsection{ST2014}
+\subsection{ST2015 e ST2016}
+ST2015 e ST2016 sono le schermate che mostrano i dettagli di un ordine, il suo stato, chi lo ha commissionato e una lista dei singoli prodotti ordinati.
+Le due schermate si differenziano per le diverse informazioni riguardante l'ordine mostrate.
+
+Nel caso di cliente 
+
+
+\section{Progetto 2, visualizzazione interattiva degli ordini tramite l'utilizzo di quickvision}
+Il secondo progetto prevede l'uso di quickvision per la realizzazione di un pannello di controllo contenente informazioni riguardanti gli ordini dell'azienda e informazioni derivate. 
+Sarà possibile inoltre visualizzare i dati in tabella sottoforma di grafici, aprire tabelle contenenti dettagli riguardo specifici ordini e applicare filtri globali.
+
+
+
+\chapter{Programma finale, richieste ferie e permessi via app}
+\section{Obbiettivo}
+L'obbiettivo del programma è di aggiornare l'attuale sistema di richiesta delle assenze, presente nel gestionale dell'azienda, con uno in grado di funzionare su mobile.
+
+\subsection{Richieste}
+\begin{enumerate}
+    \item L'entry form deve avere una struttura come mostrato nell'immagine
+    \item Per l'inserimento di un nuovo elemento deve essere richiesto prima la causale e poi l'intervallo di tempo che si adatterà in base alla causale richiesta.
+    Per le ferie si specifica un intervallo di date mentre per i permessi un intervallo in ore.
+    \item La lista delle causali si ottiene tramite una query già fornita.
+    \item l'inserimento degli dettagli dell'assenza deve avvenire in "steps". Certi campi di input vengono rivelati a ogni step per guidare l'utente nell'inserimento.
+    \item I pulsanti "Da autorizzare" e "Autorizzate" devono contenere un conteggio degli elementi al loro interno nel testo del bottone.
+    \item Le liste di assenze di "Da autorizzare" e "Autorizzare" devono utilizzare una specifica query sql fornita per il recupero delle informazioni. 
+    \item Ogni riga delle liste deve contenere un bottone per visualizzarne(se autorizzata) o modificarne(se da autorizzare) i dettagli relativi alla durata dell'assenza.
+    \item Il layout dell'applicazione deve essere di facile utilizzo per utenti da mobile.
+\end{enumerate}
+\section{Diagrammi}%schemi di layout fatti con il tutor, schemi di funzionamento, activity diagram
+\subsection{Activity diagram}
+Possiamo schematizzare il funzionamento del progetto tramite un aactivity diagram.
+
+
+\section{GSA080}
+\subsection{Funzionalità}
+GSA080 è il programma che si occupa della gestione del menu principale. Da qui possiamo accedere a tutte le funzionalità del progetto tramite i 3 bottoni presenti.
+
+
+
+\begin{itemize}
+    \item Nuovo invoca l'interfaccia di GSA082 che si occupa della selezione della motivazione di assenza. 
+    Se questa viene selezionata ,GSA082 ritorna il valore della causale e GSA080 procede con l'aprire l'interfaccia di GSA084 con il valore ricevuto sottoforma di parametro in input.
+    GSA084 si occuperà quindi dell'isnerimento dei dettagli. 
+        
+    \item Da approvare apre l'interfaccia di GSA081 che elenca tutte le richieste di assenza non ancora approvate dall'azienda. Il pulsante mostrerà nel suo testo il numero di elementi da approvare.
+    
+    \item Approvate apre anchesso l'interfaccia di GSA081 mostra una lista di assenze già approvate dall'azienda. Il pulsante mostrerà nel suo testo il numero di elementi approvati.
+\end{itemize}
+
+\begin{figure}[h]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{screenshot/Interfaccia_gsa080.png}
+        \caption{schermata GSA080}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{screenshot/Struttura_gsa080.png}
+        \caption{struttura della schermata GSA080}
+    \end{minipage}
+\end{figure}
+
+
+\subsection{Funzioni principali}
+Lodhf0 è la funzione che gestisce il caricamento delle informazioni relative agli elementi di hf0.
+In questo programma si occupa del conteggio di assenze da approvare e approvate al fine di aggiornare i valori mostrati. Se non sono presenti assenze, il bottone relativo viene disattivato.
+
+
+
+
+\begin{lstlisting}[language=RPG, caption=Codice RPG di Lodhf0, label=lst:rpgHF0BTNNEW]
+    //ricava numero assenze da autorizzare
+    exec sql select count(distinct gsaidn)
+            into :QvlCount
+            from gstgas00v join grtang00f on grtidn=gsagrtidn
+            where gsaaznidn=1
+                and gasdteass>=:QvgDteCmp
+                and gsarsuidn=:QprIdnRsu
+                and GrtGstPrm = '1'
+                and gsasttaur='1';
+
+    setatr(QvgFrm:'hf0btndau':'xdsc':'Da autorizzare ('+%char(QvlCount)+')');
+
+    if QvlCount=0;
+        setatr(QvgFrm:'hf0btndau':'disabled':'disabled');
+    endif;
+\end{lstlisting}
+
+Il codice per le assenze da autorizzare è analogo con l'unica differenza che gsasttaur='5'.
+
+
+Cnthf0 si riferisce al codice che gestisce cambiamenti all'interno di hf0.
+Nello specifico questa funzione gestisce i cambiamenti avvenuti negli elemnti di hf0 ossia i 3 bottoni del menu.
+
+Il bottone HF0BTNNEW è il bottone che apre le interfacce volte all'inserimento di una nuova assenza.
+\begin{lstlisting}[language=RPG, caption=Codice RPG del bottone HF0BTNNEW, label=lst:rpgHF0BTNNEW]
+    // Nuova
+    if QdgFrm.HF0BTNNEW='*on';
+        // selezione causale
+        clear QvgPrmInp ;
+        QvgFrmCnl='GSA082C';
+        FrmCnl(QvgPrmInp);
+        QvlIdnGrt= gpn(QvgPrmInp:'qpridngrt');  //valore ritornato da gsa082c
+
+        // inserimento richiesta
+        if QvlIdnGrt <> 0;
+        clear QvgPrmInp ;
+            QvgPrmInp = ap(QvgPrmInp:'qpridnrsu':%char(QprIdnRsu):' ');
+            QvgPrmInp = ap(QvgPrmInp:'qpridngrt':%char(QvlIdnGrt):' ');
+            QvgPrmInp = ap(QvgPrmInp:'qpridngsa':'0':' ');
+            QvgFrmCnl='GSA084C';
+            FrmCnl(QvgPrmInp);
+            QvgFlgRcr=gp(QvgPrmInp:'qprflgupd');
+        endif;
+    endif;
+\end{lstlisting}
+
+\section{GSA081}
+\subsection{Funzionalità}
+GSA081 si occupa del mostrare a schermo una lista di assenze. Viene utilizzato per mostrare sia le assenze da autorizzare che quelle autorizzate.
+In base ai parametri di input il programma decide quale visualizzare e che funzioni rendere disponibile all'utente.
+
+Nel caso della lista assenze da autorizzare sarà disponibile un bottone per apporre modifiche ai dati e uno per la cancellazione della richiesta.
+
+Nel caso della lista assenze autorizzate il pulsante di modifica svolgerà la funzione di pulsante di visualizzazione dei dettagli mentre il pulsande di cancellazione viene nascosto.
+
+\begin{figure}[h]
+    \centering
+    \begin{minipage}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{screenshot/Interfaccia_gsa081_DAU.png}
+        \caption{schermata GSA081 per assenze da autorizzare}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{screenshot/Interfaccia_gsa081_AUT.png}
+        \caption{schermata GSA081 per assenze autorizzate}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{screenshot/Struttura_gsa081.png}
+        \caption{struttura della schermata GSA081}
+    \end{minipage}
+\end{figure}
+
+\break
+\subsection{Funzioni principali}
+
+Lodhf0 si occupa del recupero dei dati della lista di assenze tramite un interrogazione SQL. 
+QprSttAss contiene il valore che differenzia le assenze autorizzate da quelle da autorizzare.
+L'interrogazione sql è stata fornita dall'azienda e, come richiesto, non è stata alterata.
+\begin{lstlisting}[language=RPG, caption=Codice RPG per la costruzione dell'interrogazione SQL]
+    QvlStrSql = 'select gsaidn, tpo.dbqdsc, '' '', +
+                    min(gasdteass), max(gasdteass), +
+                    gsasttaut, gsasttaur, sttaut.dbqdsc, +
+                    coalesce(sttaur.dbqdsc, ''''), +
+                    sum(case w hen gastpoass=''1'' then 1 else 0 end), +
+                    sum(case w hen gastpoass=''0'' then gasmmass else 0 end) +
+                from gstgas00v +
+                join grtang00f on gsagrtidn=grtidn +
+                join dbqang00f tpo on tpo.dbqtblnme=''GRTANG00F'' +
+                    and tpo.dbqclnnme=''GRTTPO'' +
+                    and tpo.dbqvle=grttpo +
+                join dbqang00f sttaut on sttaut.dbqtblnme=''GSTASS00F'' +
+                    and sttaut.dbqclnnme=''GSASTTAUT'' +
+                    and sttaut.dbqvle=gsasttaut +
+                left join dbqang00f sttaur on sttaur.dbqtblnme=''GSTASS00F'' +
+                    and sttaur.dbqclnnme=''GSASTTAUR'' +
+                    and sttaur.dbqvle=gsasttaur +
+                :where and gsaaznidn=' +%char(QdgPnv.idnazn)+ ' +
+                    and gsarsuidn=' +%char(QvgRsuIdn)+ ' +
+                    and gasdteass>' +%char(UDATE)+ ' +
+                    and gststtaur=''5 '' +
+                    and GrtGstPrm = ''1'' +
+                group by gsaidn, tpo.dbqdsc, +
+                    gsasttaut, gsasttaur, sttaut.dbqdsc, +
+                    sttaur.dbqdsc +
+                :order 4 +
+                fetch first 10000 row s only +
+                for read only +
+\end{lstlisting}
+
+\break
+Wrthg0() si occupa delle modifiche da apportare alla lista hg0.
+Le modifiche applicate includono il popolamento della lista, lo scorrimento delle pagine della lista (qualora venissero superate le righe massime per pagina) 
+e l'occultamento del bottone di cancellazione per la lista di assenze autorizzate.
+La durata dell'assenza viene mostrata sottoforma di giorni invece di ore nel caso di ferie.
+
+\begin{lstlisting}[language=RPG, caption=Codice RPG di occultamento del bottone elimina(h50btndlt), label=lst:rpglodhf0gsa081]
+    //se autorizzato nascondi bottone elimina
+    if QprSttAss = '5';
+        addatr(QvgFrm:'h50btndlt':'class':'hidden');
+    endif; 
+\end{lstlisting}
+
+
+Cnthg0() controlla il cambiamento dello stato della lista e dei suoi elementi.
+In GSA081 controlla i pulsanti di scorrimento delle pagine, il pulsante di modifica/visualizzazione dettagli e il pulsante di cancellazione.
+\begin{lstlisting}[language=RPG, caption=Codice RPG di controllo dei pulsanti]
+// richiama dettaglio assenza
+if QdgFrm.H50BTNSLZ='*on';
+    clear QvgPrmInp;
+    //parametri in input all'interfaccia GSA084 (chiave del record corrispondente)
+    QvgPrmInp=ap(QvgPrmInp:'qpridngsa':Qdgh50(QvlCount).h50idn:' ');
+    QvgFrmCnl='GSA084C'; //apertura dell'interfaccia GSA084
+    FrmCnl(QvgPrmInp);
+    QvgFlgRcr=gp(QvgPrmInp:'qprflgupd');
+endif;
+
+if QdgFrm.H50BTNDLT ='*on';
+    //operazione di cancellazione del record corrispondente
+    QdgRtc=GsaDlt(%int(Qdgh50(QvlCount).h50idn):'msg'); 
+    if QdgRtc.exc='true';
+        QvgFlgRcr='si';
+    return;
+    endif;
+endif;
+\end{lstlisting}
+\break
+
+
+
+
+\section{GSA082}
+
+\subsection{Funzionalità}
+GSA082 è l'interfaccia che si occupa di mostrare una lista di causali possibili da inserire nella richiesta di assenza.
+Le causali vengono prelevate da una tabella "tblaut00f" del database.
+Ogni riga della lista contiene una lable per contenere il nome della causale e un bottone che ritornerà il valore di quella causale a GSA080.
+
+\begin{figure}[h]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{screenshot/Interfaccia_gsa082.png}
+        \caption{schermata GSA080}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{screenshot/Struttura_gsa082.png}
+        \caption{struttura della schermata GSA080}
+    \end{minipage}
+\end{figure}
+
+\subsection{Funzioni principali}
+Lodhg0 si occupa della costruzione ed esecuzione della richiesta in sql per ricavare tutte le possibili causali delle assenze.
+\begin{lstlisting}[language=RPG, caption=Codice RPG di controllo dei pulsanti]
+ QvlSqlStr = 'select +
+                    grtidn, +
+                    grtdsc +
+                from GRTANG00F +
+            :where +
+                and grtgstass=''1'' +
+                and grttpo in (''3'', ''4'') +
+                and grtgstprm = ''1'' +
+            group by grtdsc,grtidn +
+            :order grtdsc +
+                fetch first :elem rows only +
+                for read only';
+
+// Valorizza numero massimo elementi
+QvlSqlStr = %scanrpl(':elem':%char(QvlElm):QvlSqlStr);
+// Build where condition
+QvlSqlStr = %scanrpl(':where':
+                    BldWhr(QvgFrm:getatr(QvgFrm:'h20':'xwhrstr')):
+                    QvlSqlStr);
+// Build order condition
+QvlSqlStr = %scanrpl(':order':
+                    BldOrd(QvgFrm:getatr(QvgFrm:'h20':'xordstr')):
+                    QvlSqlStr);
+\end{lstlisting}
+
+Cnthg0 controlla i bottoni di scorrimento della pagina e il bottone di selezione della causale.
+In base al bottone premuto, il programma restituisce il relativo identificativo(conservato in un campo nascosto h50idn nella tabella)
+Questo valore viene poi salvato in QprStr, stringa contenente i parametri da restituire al termine del programma.
+\begin{lstlisting}[language=RPG, caption=Codice RPG di controllo dei pulsanti]
+// seleziona giustificativo
+    if QdgFrm.H50BTNSLZ='*on';
+        QvgIdnGrt=%int(g(QvgFrm:'h50idn':QvlCount));  //ricavo la chiave salvata nella riga selezionata
+        FrmEnd();
+        return;
+    endif;
+
+    //------------al termine del programma----------
+    // Valorizza Parametri Output
+    QprStr = ap(QprStr:'qpridngrt':%char(QvgIdnGrt):'');
+\end{lstlisting}
+\break
+
+\section{GSA083}
+GSA083 si occupava della visualizzazione e/o della modifica dei dettagli relativi alle assenze.
+Questo programma è stato sostituito con GSA084 in seguito a una modifica richiesta.
+
+
+\section{GSA084}
+\subsection{Funzionalità}
+GSA084 è l'interfaccia che si occupa dell'inserimento e della modifica delle assenze.
+
+Per distinguere un inserimento da una modifica controlla il valore in input di QvgIdnGsa ossia la variabile contenente la chiave di un record della tabella delle assenze.
+Se è uguale a 0 vuol dire che il valore non è presente nel nostro database e quindi si procede con un inserimento.
+Se è diverso da 0 questo valore viene usato per recuperare i dati dell'assenza.
+
+Se sto inserendo una nuova assenza, il programma mostra a schermo solo i campi da compilare di mio interesse.
+
+Tra i parametri in input viene passato il record della causale dell'assenza selezionato precedentemente. Da questo record estrapoliamo il tipo e confrontiamo il suo valore.
+Se è uguale a 3 sono in presenza di ferie perciò nasconderò i campi relativi all'inserimento delle ore poiché le ferie devono duurare almeno un giorno.
+Se è uguale a 4 sono invece in presenza di permessi quindi nascondo la data di termine mantenendo gli input degli orari. Un permesso infatti è previsto occupi solo parte della stessa giornata.
+
+
+Per distinguere una modifica da una visualizzazione il programma controlla il valore del parametro sttaur, parametro che contiene lo stato della autorizzazione.
+Se è 1, quindi assenza da autorizzare, inserisco i valori correnti nei campi di input per aggevolare la modifica.
+Se è 5, perciò assenza autorizzata, i campi di input vengono popolati co in valori dell'assenza ma impostati in sola lettura cosi da non poter apportare modifiche.
+
+Prima che l'inserimento o la modifica vada a buon fine vengono messi in atto diversi controlli sulla correttezza dei dati inseriti
+
+\begin{figure}[h]
+    \centering
+    \begin{minipage}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{screenshot/Interfaccia_gsa084_ferie.png}
+        \caption{schermata GSA084 per dettagli delle ferie}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{screenshot/Interfaccia_gsa084_AUT.png}
+        \caption{schermata GSA084 per dettagli dei permessi}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{screenshot/Struttura_gsa084.png}
+        \caption{struttura della schermata GSA084}
+    \end{minipage}
+\end{figure}
+
+\subsection{Funzioni principali}
+
 %% Fine dei capitoli normali, inizio dei capitoli-appendice (opzionali)
 \appendix
 
@@ -259,6 +935,72 @@ Fornisce anche informazioni sulle interazioni e scelte degli utenti per analizza
 
 \chapter{Titolo della prima appendice}
 Sed purus libero, vestibulum ut nibh vitae, mollis ultricies augue. Pellentesque velit libero, tempor sed pulvinar non, fermentum eu leo. Duis posuere eleifend nulla eget sagittis. Nam laoreet accumsan rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur eget libero quis leo porttitor vehicula eget nec odio. Proin euismod interdum ligula non ultricies. Maecenas sit amet accumsan sapien.
+
+\chapter{Struttura delle tabelle utilizzate}
+\subsection{Tabelle dei progetti di apprendimento}
+ANGCF00F
+
+La tabella angcf00f si occupa di immagazzinare le informazioni anagrafiche dei clienti e dei fornitori. Tra le informazioni disponibili sono presenti nome, indirizzo, ragione sociale, partita iva, telefono, fax, e-mail
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.55\textwidth, angle=90]{database/angcf00f.jpg}
+    \end{center}
+    \caption{Dati tabella angcf00f}
+\end{figure}
+
+ANGFL00F
+
+Questa tabella viene utilizzata per recuperare informazioni riguardo una determinata filiale come indirizzo, ragione sociale, telefono e email.
+
+La filiale è identificata dal codice filiale FLCDFL
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.55\textwidth]{database/angfl00f.jpg}
+    \end{center}
+    \caption{Dati tabella angfl00f}
+\end{figure}
+oclgt00f 
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.55\textwidth]{database/angfl00f.jpg}
+    \end{center}
+    \caption{Dati tabella angfl00f}
+\end{figure}
+ofrat00f
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.55\textwidth]{database/ofrat00f.jpg}
+    \end{center}
+    \caption{Dati tabella ofrat00f}
+\end{figure}
+ofrad00f
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.55\textwidth]{database/ofrad00f.jpg}
+    \end{center}
+    \caption{Dati tabella ofrad00f}
+\end{figure}
+%%qflag00f non ho ottenuto la struttura dall'azienda
+tbbse00f
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.55\textwidth]{database/tbbse00f.jpg}
+    \end{center}
+    \caption{Dati tabella tbbse00f}
+\end{figure}
+oclgd00f
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.55\textwidth]{database/oclgd00f.jpg}
+    \end{center}
+    \caption{Dati tabella oclgd00f}
+\end{figure}
+\subsection{Tabelle progetto finale}
+precns00f %data chiusura consultivo
+gstgas00v
+grtang00f
+dbqang00f 
+cdrazn00f %ultima data calendario
 
 %% Parte conclusiva del documento; tipicamente per riassunto, bibliografia e/o indice analitico.
 \backmatter
