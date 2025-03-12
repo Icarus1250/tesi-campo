@@ -277,28 +277,34 @@ MIO si integra nativamente con ERP ed e-commerce. Genera ordini con distinta, co
 Essendo anche MIO web-based ,è accessibile da qualunque browser senza necessità di plugin aggiuntivi. 
 Fornisce anche informazioni sulle interazioni e scelte degli utenti per analizzare azioni e strategie di vendita.
 
+\section{Il team}
+
+Durante il mio tirocinio non sono stato inserito in un team. 
+I progetti da me realizzati sono stati sviluppati in modo individuale sotto la guida e la supervisione del mio tutor aziendale.
+
+
 %----------------------------------------------------
 %https://www.ibm.com/support/pages/node/6120837#labs
 \chapter{Applicazioni utilizzate}
 \section{IBM Rational Developer for i}
-IBM Rational Developer for i (RDi) è un ambiente di sviluppo integrato(IDE) basato su eclipse, IDE open source di proprietà di eclipse foundation.
-RDi è ideato specificatamente per la programmazione in RPG e COBOL.
+IBM Rational Developer for i (RDi) è un ambiente di sviluppo integrato(IDE) basato su eclipse, IDE open source di proprietà di Eclipse Foundation.
+RDi è ideato specificamente per la programmazione in RPG e COBOL.
 
 %https://www.ibm.com/support/pages/system/files/inline-files/Lab02_RDi_editing%20-%20FreeForm_3.pdf
 \subsection{Live Parsing Extensible Editor (LPEX)}
 LPEX è l'editor per la scrittura di sorgenti utilizzato da RDi. Rispetto al suo predecessore SEU, LPEX possiede:
 \begin{itemize}
     \setlength{\itemsep}{0pt} % Riduce lo spazio tra gli elementi
-    \item Editor visuale a colori
-    \item Capacità di aprire piu sorgenti in contemporanea
+    \item Editor visuale a colori.
+    \item Capacità di aprire più sorgenti in contemporanea.
     \item Visualizzazione della struttura per spostamenti rapidi tra le routine, definizioni di file, variabili ecc.
-    \item Creazione guidata di specifiche e procedure
-    \item Controllo della sintassi
-    \item Refactoring
-    \item Tooltip
-    \item Conversione da formato fixed a formato free 
-    \item Compatibilità con comandi di SEU
-    \item Help dotato di manuale RPG
+    \item Creazione guidata di specifiche e procedure.
+    \item Controllo della sintassi.
+    \item Refactoring.
+    \item Tooltip.
+    \item Conversione da formato fixed a formato free .
+    \item Compatibilità con i comandi di SEU.
+    \item Help dotato di manuale RPG.
 \end{itemize}
 
 \subsection{Debugger}
@@ -313,14 +319,14 @@ Tale integrazione cosente di modificare ed effettuare modifiche del codice da re
 
 
 \section{RPGLE}
-Report Program Generator Language Enhanced è un estensione di RPG, un linguaggio di programmazione sviluppato da IBM nel 1958.
+Report Program Generator Language Enhanced è un'estensione di RPG, un linguaggio di programmazione sviluppato da IBM nel 1958.
 Viene utilizzato per lo sviluppo di applicazioni aziendali che operano su sistemi IBM.
 
 \subsection{Caratteristiche "storiche" (RPG)}
-Linguaggio compilato, spartano ed essenziale,RPG (Report Program Generator) è ancora oggi è il più compatto fra gli HLL (Linguaggi ad alto livello).
-Un programma per aggiornare un campo su tutti i record di un file comprende al massimo soltanto quattro istruzioni.
+Linguaggio compilato, spartano ed essenziale, RPG (Report Program Generator) è ancora oggi è il più compatto fra gli HLL (Linguaggi ad alto livello).
+Un programma per aggiornare un campo su tutti i record di un file comprende al massimo quattro istruzioni.
 
-RPG è un linguaggio nato per la produzione di stampe in batch con un flusso di elaborazione rigidamente predefinito.
+RPG è un linguaggio nato per la produzione di stampe in batch con un flusso di elaborazione strettamente predefinito.
 \\
 Un programma tipico di stampa prevede un flusso standard:
 \begin{itemize}
@@ -346,7 +352,7 @@ dato e dimensione.
 \end{lstlisting}
 
 
-RPG nasce come linguaggio posizionale. Le istruzioni vanno scritte rispettando il cosiddetto “fixed format”, perciò devono rispettare una struttura fissa basata sul significato delle colonne:
+RPG è nato come linguaggio posizionale. Le istruzioni vanno scritte rispettando il cosiddetto “fixed format”, perciò devono rispettare una struttura fissa basata sul significato delle colonne:
 \begin{itemize}
     \setlength{\itemsep}{0pt} % Riduce lo spazio tra gli elementi
     \item La riga è lunga 80 caratteri, retaggio delle schede perforate.
@@ -402,7 +408,7 @@ Fixed e free format utilizzano diversa semantica per definire le specifiche.
 
 \section{DESIGNER Unicloud}
 DESIGNER Unicloud è lo strumento che utiliziamo per creare l'interfaccia grafica delle nostre applicazioni.
-Il designer è completamente web based e acessibile solo tramite un apposito link riservato agli sviluppatori.
+Il designer è completamente web based e accessibile solo tramite un apposito link riservato agli sviluppatori.
 Come molti editor dedicati alle interfacce grafiche, il designer di unicloud permette l'inserimento di diverse risorse.
 
 \subsection{Risorse}
@@ -418,20 +424,19 @@ Possiamo raggrupparli in
 
 \subsection{attributi}
 Ogni risorsa non è altro che un elemento dotato di specifici attributi.
-Tramite la modifica di questi attributi possiamo trasformare una risorsa in qualunque modo vogliamo
-Queste modifiche possono essere semplici variazioni estetiche come dimensioni, carattere, colore e allineamento oppure 
-modifiche alla funzione come visibilità, sola lettura, abilitazione dell'elemento, tipo di dato contenuto e riferimenti al database
+Tramite la modifica di questi attributi, possiamo trasformare una risorsa in qualunque modo desideriamo.
+Queste modifiche possono essere semplici variazioni estetiche come dimensioni, carattere, colore e allineamento, oppure 
+modifiche alla funzione come visibilità, sola lettura, abilitazione dell'elemento, tipo di dato contenuto e riferimenti al database.
 è possibile modificare questi attributi in esecuzione e sarà importante per i requisiti del nostro programma.
 
 \subsection{scheletro}
 Per poter interagire con l'interfaccia dobbiamo prima costruire lo scheletro tramite l'apposito menu. 
 Lo scheletro consiste in 2 file.
-Il primo file RPGLE sarà il file dove avveine la programmazione
-il secondo file DSPF contiene una lista di tutti i campi di input presenti nel progetto e il loro tipo (definito dagli attributi del relativo campo di input). 
-Questo file viene richiamato dal file RPGLE per poter ricavare i valori dei campi dell'interfaccia.
+Il primo, il file RPGLE, sarà il file dove avveine la programmazione
+il secondo, il file DSPF, contiene una lista di tutti i campi di input presenti nel progetto e il loro tipo (definito dagli attributi del relativo campo di input). 
+Questo file viene richiamato dal file RPGLE per poter ricavare i valori dei campi dell'interfaccia durante l'esecuzione.
 Entrambi i file vengono generati con tutti gli elementi necessari e la struttura del flusso di esecuzione.
 Come dice il nome questo è uno scheletro e sarà nostra responsabilità riempire il programma affinchè l'interfaccia del designer si comporti come richiesto.
-
 
 \section{Quickvision}
 QuickVision è il programma che utiliziamo per costruire e mostrare i dati tramite interfacce personalizzate.
@@ -444,95 +449,19 @@ Sarà possibile creare:
     \item campi di ricerca
     \item grafici semplici
     \item grafici dinamici
-    \item scorciatoie a tabelle piu specifiche
+    \item scorciatoie a tabelle più specifiche
     \item conversione di dati in codici a barre e/o QR
 \end{itemize}
 
-Possiamo visualizzare queste tabelle e grafici singolarmente oppure possiamo mostrarle in un unico pannello di controllo chiamato schema.
+Possiamo visualizzare queste tabelle e grafici singolarmente oppure possiamo mostrarle in un unico pannello di controllo chiamato "schema".
 
-Il vantaggio di uno schema sta non solo nel poter visualizzare piu elementi in contemporanea senza navigare costantemente, ma anche nel poter interagire con piu tabelle e grafici all'unisono.
+Il vantaggio di uno schema sta non solo nel poter visualizzare piu elementi in contemporanea senza navigare costantemente, ma anche nel poter interagire con più tabelle e grafici all'unisono.
 Per esempio posso filtrare una tabella per un determinato valore e i grafici e tabelle ad essa collegata vengono aggiornate in tempo reale con i nuovi valori.
 
 Il risultato finale sarà un pannello di controllo a cui accedere alle informazioni opportunamente organizzate come richiesto dal cliente
 
-Il progetto è definito da un unico file xml.
+Il progetto è definito da un file xml.
 
-\section{Protocollo GSB}
-
-Per poter correttamente utilizzare le risorse aziendali e permettere una successiva modifica del programma da parte dell'azienda, è necessario conoscere il protocollo GSB ossia gli standard di denominazione dell'azienda.
-\subsection{Nomenclatura archivi}
-La nomenclatura degli archivi segue lo schema xxxxxx99z:
-
-xxxxxx identifica il nome del record.
-
-99 è un numero progressivo.
-
-z definisce il tipo di file:
-\begin{itemize}
-    \item F fisico
-    \item I indice
-    \item A indice automatico
-    \item V view
-\end{itemize}
-
-Esempio: BPNANG00F Tabella business partners - anagrafica.
-
-\subsection{Nomenclatura programmi}
-Per i programmi si segue lo schema xxx99z
-
-\begin{itemize}
-    \item xxx è il nome dell'applicazione.
-
-    \item 999 è un numero progressivo.
-    \begin{itemize}
-        \item da 000 a 899 - Gestione, visualizzazione, stampe e utilità
-        \item da 900 a 999 - Pannelli innestati
-    \end{itemize}
-
-    \item z deginisce il tipo di file.
-    \begin{itemize}
-        \item C controller
-        \item R controller tampe
-        \item I controller pannelli innestati
-    \end{itemize}
-\end{itemize}
-\subsection{Nomenclatura campi}
-
-I nomi delle variabili usate nella definizione degli archivi possono essere lunghi al massimo 10 caratteri e
-devono rispettare la seguente struttura:
-XxxYyy(Zzzz)
-
-\begin{itemize}
-    \item Xxx identifica il prefisso dell'archivio oppure il suo uso
-
-    \item Yyy definisce il tipo di campo
-
-    \item Zzzz definisce l'identificativo della variabile. Questo è opzionale.
-    \begin{itemize}
-        \item La serie di caratteri che identifica la variabile deve essere lunga da un minimo di 3 ad un massimo di 4.
-        \item Eliminare le vocali, tranne nel caso in cui la parola da descrivere inizi con una vocale.
-        \item Eliminare le doppie, tranne nel caso in la contrazione porti ad una definizione non significativa.
-        \item Nel caso in cui l’entità da descrivere sia composta da più parole contrarre in funzione della parola più
-        significativa.
-    \end{itemize}
-\end{itemize}
-
-
-\subsection{Nomenclatura record}
-I nomi delle variabili usate nella definizione dei record devono essere lunghi 6 caratteri e devono rispettare la
-seguente struttura:
-QxxYyy
-\begin{itemize}
-    \item Q è fisso e sempre presente all'inizio della variabile
-
-    \item xx definisce l'uso
-    \begin{itemize}
-        \item dg=globale
-        \item dl=locale
-    \end{itemize}
-    \item Yyy identifica il prefisso del record a cui questa variabile fa riferimento
-\end{itemize}
-Esempio: QdgBpn Variabile globale per il record Business partners.
 
 \section{Database}
 Tutti i progetti sono stati realizzati usando un database di test.
@@ -541,97 +470,500 @@ Il database di test è una copia esatta del database aziendale perciò le tabell
 I primi 6 campi di ogni tabella sono riservati alle informazioni riguardo l'utente la data e l'ora dell'immissione e dell'ultimo aggiornamento del record
 
 \subsection{Tabelle dei progetti di apprendimento}
-ANGCF00F
-La tabella angcf00f si occupa di immagazzinare le informazioni anagrafiche dei clienti e dei fornitori. 
-Tra le informazioni disponibili sono presenti nome, indirizzo, ragione sociale, partita iva, telefono, fax, e-mail.
-I record sono identificati dal codice cliente fornitori
+ANGCF00F si occupa di immagazzinare le informazioni anagrafiche dei clienti e dei fornitori. 
+\\Tra le informazioni disponibili sono presenti nome, indirizzo, ragione sociale, partita iva, telefono, fax, e-mail.
+\\I record sono identificati dal codice cliente fornitori
+\\
+\\ANGFL00F viene utilizzata per recuperare informazioni riguardo una determinata filiale come indirizzo, ragione sociale, telefono e email.
+\\La filiale è identificata dal codice filiale FLCDFL
+\\Il campo FLCDCF contiene la chiave esterna del cliente/fornitore a cui questa filiale è associata.
+\\
+\\OCLGT00F e OFRAT00F sono le tabelle contenenti le informazioni di testata degli ordini dei clienti e dei fornitori rispettivamente.
+\\I singoli ordini sono identificati dall'anno e dal numero dell'ordine. 
+\\L'azienda assenga un numero progressivo a ogni ordine che si azzera con l'inizio del nuovo anno.
+\\Questa tabella ci permette di accedere a diverse caratteristiche dell'ordine, in particolare lo stato dell'ordine, l'evasione, le date di richiesta, consega prevista, tipo di ordine e causale.
+\\
+\\OCLGD00f e OFRAD00F contengono i singoli articoli degli ordini dei clienti e dei fornitori. 
+\\Vengono identificati dal loro codice articolo e il riferimento alla riga cel cliente o fornitore.
+\\La tabella contiene informazioni riguardanti i singoli articoli come descrizione, peso dell'articolo, volume, dimensioni, quantità ordinata, in spedizione e spedita
+\\
+\\TBBSE00F contiene le descrizioni di ogni tabella del database dato il codice del record di interesse.
+\\Ogni tabella è identificata da 4 campi che descrivono il nome della tabella diviso nelle sue componenti:
+\begin{itemize}
+    \item TBPRFS prefisso della tabella
+    \item TBCTB1 primo codice tabella
+    \item TBCTB2 secondo codice tabella
+    \item TBCTB3 terzo codice tabella
+\end{itemize}
 
-ANGFL00F
-Questa tabella viene utilizzata per recuperare informazioni riguardo una determinata filiale come indirizzo, ragione sociale, telefono e email.
 
-La filiale è identificata dal codice filiale FLCDFL
-Il campo FLCDCF contiene la chiave esterna del cliente/fornitore a cui questa filiale è associata.
-
-oclgt00f 
-ofrat00f
-ofrad00f
-%%qflag00f non ho ottenuto la struttura dall'azienda
-tbbse00f
-oclgd00f
 \subsection{Tabelle progetto finale}
-precns00f %data chiusura consultivo
-gstgas00v
-gstass00f
-grtang00f
-dbqang00f 
-cdrazn00f %ultima data calendario
+GSTGAS00V contiene i giustificativi delle giornate di assenza. In questa tabella sono racchiusi tutte le richieste di permesso identificate da un codice.
+\\Ogni record ha come chiavi esterne gli identificatifi della risorsa che usufruisce dell'assenza, dell'azienda della risorsa e del giustificativo assenza.
+\\Se un assenza dura piu di un giorno allora esisterà un record per ciascuna giornata ogniuno con riferimento allo stesso giustificativo assenza.
+\\Da questa tabella possiamo inoltre ricavare la data di assenza (nel caso di assenza di piu giorni saranno elencati i singoli giorni), l'ora di inizio e fine assenza (nulli nel caso di assenza di piu giorni) e i minuti di assenza.
+\\Si può notare che queta tabella non è il file originale ma una vista. Si capisce ciò dal suffisso V nel nome del file. 
+\\
+\\GSTASS00F contiene i giustificativi delle assenze individuali.
+\\In questa tabella abbiamo accesso a piu dettagli riguardanti l'assenza di una risorsa.
+\\Ogni record è identificato da un codice identificativo.
+\\Le informazioni di nostro interesse da questa tabella sono la data di inizio e termine dell'assenza, lo stato dell'autorizzazione e la causale.
+\\
+\\GRTANG00F contiene un elenco di tutte le possibili causali di un assenza.
+\\Questa tabella è di nostro interesse per poter distinguere il tipo di una causale, in particolare se identifica ferie o permessi.
+\\
+\\DBQANG00F è la tabella dei qualificatori. Dato il nome di una tabella e la colonna si possono ricavare il tipo, la descrizione e le note tecniche di quel campo.
+\\
+\\CDRAZN00F contiene il calendario aziendale. Verrà utilizzata solo per ricavare l'ultima data possibile del calendario per il controllo degli errori.
+\\
+\\PRECNS00F contiene la data di chiusura del consuntivo. Non mi sono state fornite altre informazioni a riguardo. Viene utilizzata per effettuare il controllo degli errori.
 
 
+%-----------------------------------------------------------------------------------------------------------------------
 
 \chapter{Progetti di apprendimento}
 \section{Scopo}
-Durante io tirocinio sono stati completati un totale di 3 progetti.
+Durante il tirocinio sono stati completati un totale di tre progetti.
 I primi due progetti sono stati svolti al fine di conoscere l'ambiente di sviluppo, imparare il linguaggio utilizzato e prendere dimestichezza con gli strumenti forniti.
+Il terzo è il progetto principale e verrà analizzato nel capitolo seguente.
 
-\section{Progetto 1, schermata di gestione di clienti e fornitori tramite gestionale unigea}
-Il primo progetto consiste nella realizzazione di una schermata per la visualizazione delle informazioni contenute nella tabella dedicata all'anagrafica dei clienti e dei fornitori.
+\section{ST2, schermata di gestione di clienti e fornitori tramite gestionale unigea}
+Il primo progetto consiste nella realizzazione di un programma per la visualizazione delle informazioni riguardanti clienti e fornitori.
 
-Da questa lista si potranno mostrare tramite interfacce aggiuntive le informazioni riguardanti uno specifico cliente/fornitore, il link al suo sito internet, gli ordini a lui relativi e le sue filiali qualora ne fosse in possesso.
+Da questa lista si potranno mostrare tramite interfacce aggiuntive le informazioni riguardanti uno specifico cliente/fornitore, gli ordini ad esso relativi (divisi per ordini cliente e ordini fornitore) e le sue filiali qualora ne fosse in possesso.
 
-I dettagli del cliente/fornitore sono modificabili tramite un apposita schermata aperta da un bottone collocato a lato del pannello.
+I dettagli del cliente/fornitore sono modificabili tramite un apposita schermata che si apre da un pulsante collocato a lato del pannello.
+
+Infine è possibile modificare o aggiungere nuove filiali sempre tramite un apposito pulsante.
+
+\subsection{Diagramma dei casi d'uso}
+Possiamo rappresentare le funzioni del programma sottoforma di un diagramma dei casi d'uso come segue:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{diagrammi/caso d'uso 1.png}
+    \caption{Cartella dei progetti}
+\end{figure}
+
+\subsection{Diagramma di stato}
+Tramite un diagramma di stato possiamo rappresentare il flusso dei programmi.
+Consideriamo come stato la schermata correntemente attiva.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{diagrammi/state progetto 1.png}
+    \caption{Cartella dei progetti}
+\end{figure}
+
+\subsection{Flusso del programma}
+I programmi in rpgle vengono creati con uno scheletro già pronto all'uso in base alla configurazione grafica della schermata.
+Questo scheletro è preimpostato per seguire un determinato flusso prestabilito dall'azienda.
+Questo flusso non deve essere mai modificato. Possono essere aggiunte funzioni all'interno delle opportune funzioni del flusso ma il flusso stesso deve rimanere invariato.
+Tutti i programmi rpgle useranno lo stesso flusso rappresentato in nel seguente activity diagram:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{diagrammi/flusso.png}
+    \caption{Flusso dei programmi rpgle specificato dall'azienda}
+\end{figure}
+
+\subsection{Struttura del programma}
+Il nostro progetto è composto di 6 interfacce e un egual numero di programmi che le gestiscono.
+I programmi sono nominati con il prefisso ST2, codice che identifica l'ambiente dedicato agli stagisti numero 2, e un numero incrementale.
+La numerazione parte da 010 poiché un programma 000 già esisteva allo scopo di ambiente di prova.
+
+
+Come da standard aziendali, ogni programma deve rispettare un rigido ciclo prefissato.
+Tale ciclo è già predisposto al momento della creazione dello scheletro.
+Le uniche modifiche che possiamo apportare sono all'interno delle operazioni lod (funzioni di caricamento), wrt (funzioni di scrittura) e cnt (funzioni di controllo) dei singoli elementi delll'interfaccia.
+
+
 
 \subsection{ST2010}
+ST2010 è la schermata principale del nostro programma.
+In questa schermata vengono visualizzata una lista di clienti e fornitori chiamata "business partners".
+\\Oltre a mostrare le informazioni principali di un business partner (id, ragione sociale e indirizzo), Il programma anticipa all'utente la presenza di dati riguardanti le filiali di quel partner tramite un icona gialla.
+\\Sono presenti in un apposito menu laterale, 3 pulsanti che filtrano la tabella per clienti, fornitori o tutti.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth, trim=0cm 0cm 0cm 0cm, clip]{st2/ST2010.png}
+    \caption{Schermata ST2010}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth, trim=0cm 0cm 0cm 0cm, clip]{st2/struttura ST2010.png}
+    \caption{Struttura della schermata ST2010}
+\end{figure}
+
+
+%\begin{figure}[H]
+%    \centering
+%    \begin{minipage}{0.45\textwidth}
+%        \centering
+%        \includegraphics[ height=0.2\textheight]{st2/ST2010.png}
+%        \caption{Schermata ST2010}
+%    \end{minipage}
+%    \hfill
+%    \begin{minipage}{0.45\textwidth}
+%        \centering
+%        \includegraphics[height=0.2\textheight]{st2/struttura ST2010.png}
+%        \caption{Struttura della schermata ST2010}
+%    \end{minipage}
+%\end{figure}
+
 \subsection{ST2011}
+ST2011 si occupa della visualizzazione dei dettagli realtivi al business partner selezionato in ST2010, le sue filiali (se esistono) e i suoi ordini divisi per ruolo (ordini cliente e ordini fornitore).
+Questa schermata permette di:
+\begin{itemize}
+    \item Visualizzare i dettaglio del business partner come indirizzo, ragione sociale e partita IVA.
+    \item Possibilità di modificare il contenuto tramite l'apposito pulsante a lato della tabella. Tale pulsante apre la schermata ST2012 che si occuperà della modifica.
+    \item Visualizzare una lista delle filiali esistenti. Vengono mostrati ragione sociale indirizzo e numero di telefono se esiste.
+    \item Possibilità di inserire nuove filiali, qualora necessario, tramite l'utilizzo della schermata ST2014. La schermata viene aperta tramite un apposito pulsante nell'intestazione della tabella.
+    \item Possibilità di modificare una filiale tramite la schermata ST2014. L'apposito pulsante si trova all'inizio della riga scelta.
+    \item Visualizzare una lista degli ordini cliente e di ordini fornitore (selezionabili solo se il busines partner rientra nella categoria). 
+    Vengono mostrati numero di ordine e anno di richiesta (che identificano il singolo ordine) seguiti da data dell'ordine, data di richiesta consegna, il riferimento e lo stato di evasione dell'ordine. 
+    Quest'ultimo è rappresentato da un bollino colorato di rosso per ordini non evasi, giallo se evasi parzialmente e verde se completamente evasi.
+    \item Possibilità di espandere i dettagli dell'ordine aprendo ST2015 e ST2016 rispettivamente. L'apertura di queste schermate avviene tramite un pulsante presente nella prima colonna di ogni record.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth, trim=0cm 0cm 0cm 0cm, clip]{st2/ST2011 ordini.png}
+    \caption{Schermata ST2011 con lista ordini cliente}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth, trim=0cm 0cm 0cm 0cm, clip]{st2/ST2011 filiali.png}
+    \caption{Schermata ST2011 con lista delle filiali}
+\end{figure}
+
+
+
 \subsection{ST2012}
+ST2012 contiene tutti i campi di testo necessari per la modifica dei dati di un cliente/fornitore.
+Questi campi vengono precompilati con le informazioni correnti del business partner da modificare per aggevolare l'inserimento di modifiche da parte dell'utente
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[ height=0.25\textheight]{st2/ST2012.png}
+        \caption{Schermata ST2012}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[height=0.25\textheight]{st2/struttura ST2012.png}
+        \caption{Struttura della schermata ST2012}
+    \end{minipage}
+\end{figure}
+
 \subsection{ST2014}
+ST2014 è la schermata dedicata all'inserimento o modifica dei dati di una nuova filiale. 
+I campi di testo sono tutti editabili ad eccezione dei primi 2 contenenti la descrizione del business partner a cui viene associata la filiale.
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[ height=0.22\textheight, trim=0.5cm 0cm 13cm 3.5cm, clip]{st2/ST2014.png}
+        \caption{Schermata ST2014 per modifica di una filiale}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[height=0.22\textheight]{st2/struttura ST2014.png}
+        \caption{Struttura della schermata ST2014}
+    \end{minipage}
+\end{figure}
+
 \subsection{ST2015 e ST2016}
 ST2015 e ST2016 sono le schermate che mostrano i dettagli di un ordine, il suo stato, chi lo ha commissionato e una lista dei singoli prodotti ordinati.
 Le due schermate si differenziano per le diverse informazioni riguardante l'ordine mostrate.
 
-Nel caso di cliente 
+Nel caso di "cliente" viene mostrato il riferimento dell'ordine mentre nel caso di "fornitore" vengono mostrati il tipo e la causale.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth, trim=0cm 0cm 0cm 0cm, clip]{st2/ST2015.png}
+    \caption{Schermata ST2015}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth, trim=0cm 0cm 0cm 0cm, clip]{st2/struttura ST2015.png}
+    \caption{Struttura della schermata ST2015}
+\end{figure}
+
+
+\newpage
+%-----------------------------------------------------------------------------------------------------------
+
+
 
 
 \section{Progetto 2, visualizzazione interattiva degli ordini tramite l'utilizzo di quickvision}
 Il secondo progetto prevede l'uso di quickvision per la realizzazione di un pannello di controllo contenente informazioni riguardanti gli ordini dell'azienda e informazioni derivate. 
-Sarà possibile inoltre visualizzare i dati in tabella sottoforma di grafici, aprire tabelle contenenti dettagli riguardo specifici ordini e applicare filtri globali.
+Sarà possibile inoltre visualizzare i dati della tabella sottoforma di grafici, aprire le tabelle contenenti dettagli riguardo specifici ordini e applicare filtri globali.
 
+Poiché è stato utilizzato quickvision, non è stato scritto codice per il funzionamento del progetto.
+Ogni grafico e tabella è il risultato di un lavoro di configurazione dell'ambiente.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth, trim=0cm 0cm 0cm 0cm, clip]{quickvision/tabella nazioni proprietà.png}
+    \caption{Ambiente di lavoro quickvision}
+\end{figure}
+
+\subsection{Preparazione del progetto}
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+    \centering
+    \includegraphics[width=0.5\textwidth, trim=26cm 13cm 0cm 4cm, clip]{quickvision/pannello di configurazione progetto.png}
+    \caption{Definizione sorgente dati}
+\end{wrapfigure}
+
+Prima di poter creare il pannello di controllo bisogna preparare l'ambiente.
+L'elemento fondamentale di un pannello in quickvision è la sorgente dei dati.
+Questo campo va compilato come il "FROM" di una richiesta SQL.
+La nostra sorgente sarà un unione tra le tabelle di anagrafica clienti/fornitori (angcf00f) e testata ordini clienti (oclgt00f).
+L'intero progetto farà riferimento a questa sorgente.
+
+Dalle proprietà del progetto è possibile definire un filtro, come il "WHERE" in SQL, da applicare alla sorgente. 
+In questo caso vengono selezionati gli ordini degli ultimi 3 anni.
+\newpage
+\subsection{Entità}
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+    \centering
+    \includegraphics[width=0.5\textwidth, trim=26cm 0cm 0cm 4cm, clip]{quickvision/entità nazione.png}
+    \caption{Proprietà di un entità}
+\end{wrapfigure}
+Le entità sono i campi che le tabelle e i grafici useranno.
+Anche le entità necessitano di una sorgente dati. Nel loro caso la sorgente sarà il campo di cui vogliono assumere il valore oppure una richiesta piu complessa.
+Per esempio l'entità \textbf{nazione} potrebbe essere una diretta rappresentazione del campo cfnzne (nazione del cliente) ma poichè è possibile la presenza di campi nulli modifichiamo la fonte con la seguente richiesta:
+case when trim(cfnzne)='' then 'non definita' else cnfzne end.
+Con questa aggiunta l'utente non vedrà campi vuoti al momento della visualizzazione.
+
+Le entità possono assumere la forma di codici a barre e codici QR tramite un apposita opzione nelle proprietà dell'entità stessa.
+
+Infine è necessario dichiarare il tipo di variabile utilizzata affinche quickvision possa interpretarla a dovere.
+
+
+
+%\subsection{Valori}
+%I valori sono elementi che non ricavano le informazioni dalla sorgente dati e sono esclusivamente valori numerici.
+%
+%Possono essere utilizzate per operazioni di filtraggio.
+%Per esempio possiamo dichiarare un valore per gli ordini dell'anno corrente come "sum(case when ctaaor=year(current date) then 1 else 0)".
+%
+%\begin{figure}[h]
+%    \centering
+%    \includegraphics[height=0.1\textheight, trim=26cm 17cm 0cm 3cm, clip]{quickvision/valore.png}
+%    \caption{Proprietà di un valore}
+%\end{figure}
+%\newpage
+
+\subsection{Configurazione di tabelle e grafici}
+La configurazione di una tabella avviene tramite l'inserimento delle entità configurate precedentemente negli assi x e y.
+Dalle proprietà della tabella è possibile modificarne l'aspetto, come dimensione del testo e colore delle celle, o abilitare certe funzioni come la barra di filtraggio, l'esportazione in excel e le abilitazioni per l'accesso.
+Nel caso del colore delle celle è possibile configurarlo in modo tale da associare i colori in base alla circostanza.
+Nel progetto realizzato i valori inferiori a 5 sono colorati di rosso, quelli uguali a 5 di grigio e quelli maggiori di 5 di verde.
+
+Posso predisporre le tabelle all'apertura di altre tabelle sottoforma di finestra popup.
+In questo modo posso, alla pressione di un icona nella tabella, visualizzare un'ulteriore tabella contenente i dettagli della mia selezione.
+Tale collegamento viene definito \textbf{relazione} nel pannello di configurazione.
+
+Le tabelle del nostro grafico sono 3:
+\begin{enumerate}
+    \item Statistica ordinato, tabella del numero di ordini all'anno divisi per nazione. Tramite l'apposito pulsante viene aperta una tabella "Statistica ordinato per clienti" filtrata per la nazione selezionata.
+    \item Statistica ordinato per clienti, tabella del numero di ordini all'anno divisi per cliente. La tabella viene richiamata da "Statistica ordinato". Tramite l'apposito pulsante viene aperta la tabella "Dettagli con codice qr" filtrata per l'utente selezionato.
+    \item Dettagli con codice qr, tabella contenente le informazioni dei clienti e la conversione del loro id in codice a barre e codice qr. Viene richiamata dalla tabella "Statistica ordinato per clienti".
+\end{enumerate}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{quickvision/apertura tabella cliente.png}
+        \caption{Apertura di "Statistica ordinato per cliente" da "Statistica ordinato"}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{quickvision/apertura tabella qr.png}
+        \caption{Apertura di "Dettagli con codice qr" per cliente da "Statistica ordinato per cliente"}
+    \end{minipage}
+\end{figure}
+
+
+In quickvision una tabella e un grafico sono lo stesso elemento (denominato "situazione") che differisce per come vengono presentati i dati e per le proprietà del grafico stesso.
+I grafici cambiano dinamicamente se la tabella a cui sono associati subisce un interazione.
+Nel progetto alla selezione di una riga il grafico mostrerà solo le statistiche riguardanti quella riga invece dell'intera tabella.
+
+\begin{figure}[h]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[ width=0.6\linewidth]{quickvision/tabella cliente.png}
+        \caption{Statistica ordinato con tabella dinamica}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.75\linewidth]{quickvision/tabella nazione.png}
+        \caption{Statistica ordinato per clienti con tabella dinamica}
+    \end{minipage}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[ width=0.8\linewidth, trim=13cm 16cm 25cm 3cm, clip]{quickvision/tabella nazioni proprietà.png}
+        \caption{struttura tabella Statistica ordinato}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth, trim=13cm 16cm 25cm 4cm, clip]{quickvision/tabella clienti proprietà.png}
+        \caption{struttura tabella Statistica ordinato per clienti}
+    \end{minipage}
+\end{figure}
+
+
+\subsection{Creazione di uno schema}
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+    \centering
+    \includegraphics[width=0.5\textwidth]{quickvision/configurazione schema.png}
+    \caption{Selezione del layout dello schema}
+\end{wrapfigure}
+
+Uno schema è un insieme di elementi mostrati su un unica pagina al fine di creare un pannello di controllo.
+Gli elementi inseribili in uno schema sono grafici e tabelle realizzati precedentemente, pulsanti link, pulsanti filtro e loghi. Un elemento può essere aggiunto tramite l'apposito menu.
+Tramite uno schema è possibile quindi creare pannelli di controllo su misura.
+In ambito lavorativo per esempio possiamo creare diversi schemi per diversi uffici sotto la stessa sorgente dati mostrando solo i dati di interesse di quell'ufficio.
+
+A differenza delle tabelle, uno schema viene creato tramite una procedura guidata esterna al pannello di configurazione del progetto.
+Lo schema comparirà e sarà modificabile anche dal pannello di configurazione del progetto, procedura consigliata solo agli sviluppatori esperti con l'ambiente quickvision.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{quickvision/schema.png}
+    \caption{Schema del progetto}
+\end{figure}
+
+\subsection{Pulsanti}
+
+
+Con l'utilizzo di uno schema posso configurare dei filtri globali tramite l'inserimento di un pulsante filtro. 
+Questi filtri avranno effetto su tutte le situazioni presenti all'interno dello schema stesso.
+Il progetto possiede un filtro globale per nazione rappresentato in 3 modi diversi:
+
+
+\begin{enumerate}
+    \item pulsante tradizionale, il filtro viene rappresentato da un singolo pulsante che applica uno specifico filtro assegnato.
+    \item casella di testo, il filtro viene applicato in base al contenuto della casella di testo. 
+    \item listbox a selezione multipla, mostra una lista di tutti i possibili valori che il filtro può assumere. Piu di un elemento può essere selezionato per la visualizzazione.
+\end{enumerate}
+
+I pulsanti possono anche contenere collegamenti ipertestuali. 
+Nel progetto è presente un pulsante per la visualizzazione di un file pdf di esempio: la guida a sql fornita dall'azienda.
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth, trim=0cm 0cm 15cm 0cm, clip]{quickvision/filtro.png}
+        \caption{Filtro applicato casella di testo}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{quickvision/filtro list.png}
+        \caption{Filtro applicato tramite listbox}
+    \end{minipage}
+\end{figure}
+
+
+\subsection{Conclusione}
+Il progetto concluso è un esempio di pannello di controllo per il monitoraggio e l'analisi degli ordini dei clienti.
+Questo pannello è accompagnato da opportuni grafici, filtri e tabelle interattive.
+La configurazione delle tabelle e dello schema è salvata sottoforma di file xml.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{quickvision/cartella progetto.png}
+    \caption{Cartella dei progetti}
+\end{figure}
+
+%%------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 \chapter{Programma finale, richieste ferie e permessi via app}
 \section{Obbiettivo}
-L'obbiettivo del programma è di aggiornare l'attuale sistema di richiesta delle assenze, presente nel gestionale dell'azienda, con uno in grado di funzionare su mobile.
+L'obbiettivo del programma è di aggiornare l'attuale sistema di richiesta delle assenze, presente nel gestionale dell'azienda, con uno in grado di funzionare su sistemi mobili.
 
 \subsection{Richieste}
 \begin{enumerate}
-    \item L'entry form deve avere una struttura come mostrato nell'immagine
+    \item L'entry form deve avere una struttura come mostrato nell'immagine.
     \item Per l'inserimento di un nuovo elemento deve essere richiesto prima la causale e poi l'intervallo di tempo che si adatterà in base alla causale richiesta.
     Per le ferie si specifica un intervallo di date mentre per i permessi un intervallo in ore.
     \item La lista delle causali si ottiene tramite una query già fornita.
-    \item l'inserimento degli dettagli dell'assenza deve avvenire in "steps". Certi campi di input vengono rivelati a ogni step per guidare l'utente nell'inserimento.
+    \item l'inserimento dei dettagli dell'assenza deve avvenire in "steps". Certi campi di input vengono rivelati a ogni step per guidare l'utente nell'inserimento.
     \item I pulsanti "Da autorizzare" e "Autorizzate" devono contenere un conteggio degli elementi al loro interno nel testo del bottone.
     \item Le liste di assenze di "Da autorizzare" e "Autorizzare" devono utilizzare una specifica query sql fornita per il recupero delle informazioni. 
-    \item Ogni riga delle liste deve contenere un bottone per visualizzarne(se autorizzata) o modificarne(se da autorizzare) i dettagli relativi alla durata dell'assenza.
+    \item Ogni riga delle liste deve contenere un bottone per visualizzarne (se autorizzata) o modificarne (se da autorizzare) i dettagli relativi alla durata dell'assenza.
     \item Il layout dell'applicazione deve essere di facile utilizzo per utenti da mobile.
 \end{enumerate}
-\section{Diagrammi}%schemi di layout fatti con il tutor, schemi di funzionamento, activity diagram
-\subsection{Activity diagram}
-Possiamo schematizzare il funzionamento del progetto tramite un aactivity diagram.
+
+\section{Progettazione}%schemi di layout fatti con il tutor, schemi di funzionamento, activity diagram, state diagram
+
+\subsection{Diagramma dei casi d'uso}
+Per rappresentare le richieste viene implementato un diagramma dei casi d'uso.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{diagrammi/caso d'uso finale.png}
+    \caption{Diagramma dei casi d'uso}
+\end{figure}
+
+\subsection{Diagramma degli stati}
+Poiché il programma interagisce con l'utente aprendo e chiudendo le diverse schermate, possiamo rappresentare il funzionamento del progetto tramite uno state diagram.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{diagrammi/state progetto finale.png}
+    \caption{Diagramma degli stati}
+\end{figure}
+
+\newpage
+\subsection{Flusso del programma}
+Come visto per il primo progetto, il flusso dei programmi rpgle è prestabilito dall'azienda.
+Possono essere apportate modifiche, ma non può essere modificato il flusso del programma.
+Ogni nuova funzione deve essere richiamata all'interno dell'opportuna funzione del flusso.
+Per lo schema del flusso si fa riferimento alla figura 5.3.
 
 
 \section{GSA080}
 \subsection{Funzionalità}
-GSA080 è il programma che si occupa della gestione del menu principale. Da qui possiamo accedere a tutte le funzionalità del progetto tramite i 3 bottoni presenti.
+GSA080 è il programma che si occupa della gestione del menu principale. Da qui possiamo accedere a tutte le funzionalità principali del progetto tramite i 3 bottoni presenti.
 
 
 
 \begin{itemize}
-    \item Nuovo invoca l'interfaccia di GSA082 che si occupa della selezione della motivazione di assenza. 
-    Se questa viene selezionata ,GSA082 ritorna il valore della causale e GSA080 procede con l'aprire l'interfaccia di GSA084 con il valore ricevuto sottoforma di parametro in input.
-    GSA084 si occuperà quindi dell'isnerimento dei dettagli. 
+    \item \textbf{Nuovo} invoca l'interfaccia di GSA082 che si occupa della selezione della motivazione di assenza. 
+    Se questa viene selezionata, GSA082 ritorna il valore della causale. 
+    Quando viene ricevuto un valore da GSA082, GSA080 apre l'interfaccia di GSA084 con il valore ricevuto sottoforma di parametro in input.
+    GSA084 si occuperà quindi dell'inserimento dei dettagli. 
         
-    \item Da approvare apre l'interfaccia di GSA081 che elenca tutte le richieste di assenza non ancora approvate dall'azienda. Il pulsante mostrerà nel suo testo il numero di elementi da approvare.
+    \item \textbf{Da approvare} apre l'interfaccia di GSA081 che elenca tutte le richieste di assenza non ancora approvate dall'azienda. Il pulsante mostrerà nel suo testo il numero di elementi da approvare.
     
-    \item Approvate apre anchesso l'interfaccia di GSA081 mostra una lista di assenze già approvate dall'azienda. Il pulsante mostrerà nel suo testo il numero di elementi approvati.
+    \item \textbf{Approvate} apre anchesso l'interfaccia di GSA081 ma verranno visualizzate solo le assenze già approvate dall'azienda. Il pulsante mostrerà nel suo testo il numero di elementi approvati.
 \end{itemize}
 
 \begin{figure}[h]
@@ -653,8 +985,6 @@ GSA080 è il programma che si occupa della gestione del menu principale. Da qui 
 \subsection{Funzioni principali}
 Lodhf0 è la funzione che gestisce il caricamento delle informazioni relative agli elementi di hf0.
 In questo programma si occupa del conteggio di assenze da approvare e approvate al fine di aggiornare i valori mostrati. Se non sono presenti assenze, il bottone relativo viene disattivato.
-
-
 
 
 \begin{lstlisting}[language=RPG, caption=Codice RPG di Lodhf0, label=lst:rpgHF0BTNNEW]
@@ -679,7 +1009,7 @@ Il codice per le assenze da autorizzare è analogo con l'unica differenza che gs
 
 
 Cnthf0 si riferisce al codice che gestisce cambiamenti all'interno di hf0.
-Nello specifico questa funzione gestisce i cambiamenti avvenuti negli elemnti di hf0 ossia i 3 bottoni del menu.
+Nello specifico questa funzione gestisce i cambiamenti avvenuti negli elementi di hf0 ossia i 3 bottoni del menu.
 
 Il bottone HF0BTNNEW è il bottone che apre le interfacce volte all'inserimento di una nuova assenza.
 \begin{lstlisting}[language=RPG, caption=Codice RPG del bottone HF0BTNNEW, label=lst:rpgHF0BTNNEW]
@@ -707,7 +1037,7 @@ Il bottone HF0BTNNEW è il bottone che apre le interfacce volte all'inserimento 
 \section{GSA081}
 \subsection{Funzionalità}
 GSA081 si occupa del mostrare a schermo una lista di assenze. Viene utilizzato per mostrare sia le assenze da autorizzare che quelle autorizzate.
-In base ai parametri di input il programma decide quale visualizzare e che funzioni rendere disponibile all'utente.
+In base ai parametri di input il programma decide che assenze visualizzare e che funzioni rendere disponibili all'utente.
 
 Nel caso della lista assenze da autorizzare sarà disponibile un bottone per apporre modifiche ai dati e uno per la cancellazione della richiesta.
 
@@ -737,9 +1067,12 @@ Nel caso della lista assenze autorizzate il pulsante di modifica svolgerà la fu
 \break
 \subsection{Funzioni principali}
 
+
+
 Lodhf0 si occupa del recupero dei dati della lista di assenze tramite un interrogazione SQL. 
 QprSttAss contiene il valore che differenzia le assenze autorizzate da quelle da autorizzare.
-L'interrogazione sql è stata fornita dall'azienda e, come richiesto, non è stata alterata.
+L'interrogazione sql è stata fornita dall'azienda e, come da loro richiesto, non è stata alterata.
+
 \begin{lstlisting}[language=RPG, caption=Codice RPG per la costruzione dell'interrogazione SQL]
     QvlStrSql = 'select gsaidn, tpo.dbqdsc, '' '', +
                     min(gasdteass), max(gasdteass), +
@@ -772,6 +1105,7 @@ L'interrogazione sql è stata fornita dall'azienda e, come richiesto, non è sta
 \end{lstlisting}
 
 \break
+
 Wrthg0() si occupa delle modifiche da apportare alla lista hg0.
 Le modifiche applicate includono il popolamento della lista, lo scorrimento delle pagine della lista (qualora venissero superate le righe massime per pagina) 
 e l'occultamento del bottone di cancellazione per la lista di assenze autorizzate.
@@ -816,8 +1150,8 @@ endif;
 
 \subsection{Funzionalità}
 GSA082 è l'interfaccia che si occupa di mostrare una lista di causali possibili da inserire nella richiesta di assenza.
-Le causali vengono prelevate da una tabella "tblaut00f" del database.
-Ogni riga della lista contiene una lable per contenere il nome della causale e un bottone che ritornerà il valore di quella causale a GSA080.
+\\Le causali vengono prelevate dalla tabella "tblaut00f" del database.
+\\Ogni riga della lista contiene una lable per contenere il nome della causale e un bottone che ritornerà il valore di quella causale a GSA080.
 
 \begin{figure}[h]
     \centering
@@ -863,7 +1197,7 @@ QvlSqlStr = %scanrpl(':order':
 \end{lstlisting}
 
 Cnthg0 controlla i bottoni di scorrimento della pagina e il bottone di selezione della causale.
-In base al bottone premuto, il programma restituisce il relativo identificativo(conservato in un campo nascosto h50idn nella tabella)
+In base al bottone premuto, il programma restituisce il relativo identificativo (conservato in un campo nascosto h50idn nella tabella).
 Questo valore viene poi salvato in QprStr, stringa contenente i parametri da restituire al termine del programma.
 \begin{lstlisting}[language=RPG, caption=Codice RPG di controllo dei pulsanti]
 // seleziona giustificativo
@@ -880,28 +1214,28 @@ Questo valore viene poi salvato in QprStr, stringa contenente i parametri da res
 \break
 
 \section{GSA083}
-GSA083 si occupava della visualizzazione e/o della modifica dei dettagli relativi alle assenze.
-Questo programma è stato sostituito con GSA084 in seguito a una modifica richiesta.
+GSA083 si occupa della visualizzazione e/o della modifica dei dettagli relativi alle assenze.
+Questo programma è stato completamente sostituito con GSA084 in seguito a una modifica richiesta.
 
 
 \section{GSA084}
 \subsection{Funzionalità}
 GSA084 è l'interfaccia che si occupa dell'inserimento e della modifica delle assenze.
 
-Per distinguere un inserimento da una modifica controlla il valore in input di QvgIdnGsa ossia la variabile contenente la chiave di un record della tabella delle assenze.
+Per distinguere un inserimento da una modifica, il programma controlla il valore in input di QvgIdnGsa, ossia la variabile contenente la chiave di un record della tabella delle assenze.
 Se è uguale a 0 vuol dire che il valore non è presente nel nostro database e quindi si procede con un inserimento.
 Se è diverso da 0 questo valore viene usato per recuperare i dati dell'assenza.
 
 Se sto inserendo una nuova assenza, il programma mostra a schermo solo i campi da compilare di mio interesse.
 
 Tra i parametri in input viene passato il record della causale dell'assenza selezionato precedentemente. Da questo record estrapoliamo il tipo e confrontiamo il suo valore.
-Se è uguale a 3 sono in presenza di ferie perciò nasconderò i campi relativi all'inserimento delle ore poiché le ferie devono duurare almeno un giorno.
+Se è uguale a 3 sono in presenza di ferie perciò nasconderò i campi relativi all'inserimento delle ore poiché le ferie devono durare almeno un giorno.
 Se è uguale a 4 sono invece in presenza di permessi quindi nascondo la data di termine mantenendo gli input degli orari. Un permesso infatti è previsto occupi solo parte della stessa giornata.
 
 
 Per distinguere una modifica da una visualizzazione il programma controlla il valore del parametro sttaur, parametro che contiene lo stato della autorizzazione.
 Se è 1, quindi assenza da autorizzare, inserisco i valori correnti nei campi di input per aggevolare la modifica.
-Se è 5, perciò assenza autorizzata, i campi di input vengono popolati co in valori dell'assenza ma impostati in sola lettura cosi da non poter apportare modifiche.
+Se è 5, perciò assenza autorizzata, i campi di input vengono popolati con in valori dell'assenza ma impostati in sola lettura cosi da non poter apportare modifiche.
 
 Prima che l'inserimento o la modifica vada a buon fine vengono messi in atto diversi controlli sulla correttezza dei dati inseriti
 
@@ -927,80 +1261,284 @@ Prima che l'inserimento o la modifica vada a buon fine vengono messi in atto div
 \end{figure}
 
 \subsection{Funzioni principali}
+Lodhf0 si occupa del abilitare o nascondere gli elementi dell'interfaccia in base alla presenza di un assenza per permesso o per ferie.
+Nel caso l'interfaccia sia aperta con richiesta di inserimento verranno eseguiti 2 step:
+\begin{enumerate}
+    \item Viene richiesto di inserire la data dell'assenza. Questa data sarà il primo giorno di un intervallo di date oppure il giorno stesso di un assenza di poche ore. Il pulsante avanti viene rinominato salva per lo step successivo. I campi compilati vengono resi in sola lettura.
+    \item in base alla causale vengono mostrate 2 situazioni differenti:
+    \begin{enumerate}
+            \item la causale descrive un periodo di ferie. In questo caso viene richiesta una seconda data per definire il termine dell'assenza nascondendo i campi superflui.
+            \item la causale descrive un permesso di assenza. In questo caso viene richiesto l'orario di inizio e di fine assenza nascondendo i campi superflui. 
+    \end{enumerate}
+\end{enumerate}
+
+Nel caso di modifica di un'assenza non saranno eseguiti step. I campi idonei, ossia quelli pertinenti al tipo di assenza da modificare, saranno tutti modificabili da subito e vengono popolati con i dati correntemente memorizzati.
+
+Infine nel caso di visualizazione delle assenze si procede come per le modifiche. Tutti i campi idonei sono mostrati e popolati ma impostati in sola lettura. Inoltre il pulsante di salvataggio viene nascosto lasciando solo il pulsante indietro per tornare alla schermata che ha richiamato GSA084.
+\\
+\\Cnthf0 gestisce il controllo dei pulsanti e degli errori.
+\\Riguardo la gestione degli errori il sistema prevede i seguenti controlli:
+\\
+\\Per le date avviene un controllo tramite la funzione ChkDte() che verifica i seguenti casi:
+\begin{enumerate}
+    \item Mancato inserimento del giorno
+    \item Mancato inserimento del mese
+    \item Mancato inserimento dell'anno
+    \item Giorno non contenuto nel mese
+    \item Anno bisestile
+    \item La data supera la data di chiusura del consuntivo
+    \item La data supera l'ultimo giorno del calendario aziendale
+\end{enumerate}
+Per le ore inserite il controllo avviene tramite la funzione ChkOra() che verifica i seguenti casi:
+\begin{enumerate}
+    \item Mancato inserimento dell'ora di inizio
+    \item Mancato inserimento dell'ora di fine
+    \item Ora di fine minore dell'ora di inzio
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.35\linewidth]{screenshot/Interfaccia_gsa084_errore.png}
+    \caption{Errore di mancato inserimento evidenziato in rosso}
+\end{figure}
+
+\section{Adattamento per mobile}
+Affinché l'applicazione sia adatta per l'uso da mobile è necessario riadattare le schermate e ridimensionare i pulsanti.
+Per mantenere le correnti proporzioni per l'uso da desktop, vengono create delle copie dei file.
+Questi file si chiameranno GSAxxxc\_smartphone.xml.
+Il suffisso \_smartphone è una parola chiave riconosciuta automaticamente da unigea. Se il programma viene eseguito da mobile, unigea automaticamente userà la struttura mobile mantnendo lo stesso file rpgle per la logica di funzionamento.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\linewidth]{screenshot/Lista_gsb120.png}
+    \caption{Lista dei file xml delle schermate di GSB120 per desktop e mobile}
+\end{figure}
+\newpage
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.25\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{screenshot/mobile GSA080.png}
+        \caption{schermata principale per dispositivi mobili}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.25\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{screenshot/Mobile GSA082.png}
+        \caption{schermata selezione causale per dispositivi mobili}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.25\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{screenshot/Mobile GSA084 step1.png}
+        \caption{schermata di inserimento assenza per dispositivi mobili}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.25\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{screenshot/Mobile GSA084 Ferie.png}
+        \caption{schermata di inserimento ferie per dispositivi mobili}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.25\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{screenshot/Mobile GSA084 Permesso.png}
+        \caption{schermata di inserimento permesso per dispositivi mobili}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.25\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{screenshot/Mobile GSA081 da approvare.png}
+        \caption{schermata di visualizzazione richieste per dispositivi mobili}
+    \end{minipage}
+\end{figure}
 
 %% Fine dei capitoli normali, inizio dei capitoli-appendice (opzionali)
 \appendix
 
 %\part{Appendici}
 
-\chapter{Titolo della prima appendice}
-Sed purus libero, vestibulum ut nibh vitae, mollis ultricies augue. Pellentesque velit libero, tempor sed pulvinar non, fermentum eu leo. Duis posuere eleifend nulla eget sagittis. Nam laoreet accumsan rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur eget libero quis leo porttitor vehicula eget nec odio. Proin euismod interdum ligula non ultricies. Maecenas sit amet accumsan sapien.
+\chapter{Protocollo GSB}
+
+Per poter correttamente utilizzare le risorse aziendali e permettere una successiva modifica del programma da parte dell'azienda, è necessario conoscere il protocollo GSB ossia gli standard di denominazione dell'azienda.
+\section{Nomenclatura archivi}
+La nomenclatura degli archivi segue lo schema xxxxxx99z:
+
+xxxxxx identifica il nome del record.
+
+99 è un numero progressivo.
+
+z definisce il tipo di file:
+\begin{itemize}
+    \item F fisico
+    \item I indice
+    \item A indice automatico
+    \item V view
+\end{itemize}
+
+Esempio: BPNANG00F Tabella business partners - anagrafica.
+
+\section{Nomenclatura programmi}
+Per i programmi si segue lo schema xxx99z
+
+\begin{itemize}
+    \item xxx è il nome dell'applicazione.
+
+    \item 999 è un numero progressivo.
+    \begin{itemize}
+        \item da 000 a 899 - Gestione, visualizzazione, stampe e utilità
+        \item da 900 a 999 - Pannelli innestati
+    \end{itemize}
+
+    \item z deginisce il tipo di file.
+    \begin{itemize}
+        \item C controller
+        \item R controller tampe
+        \item I controller pannelli innestati
+    \end{itemize}
+\end{itemize}
+\section{Nomenclatura campi}
+
+I nomi delle variabili usate nella definizione degli archivi possono essere lunghi al massimo 10 caratteri e
+devono rispettare la seguente struttura:
+XxxYyy(Zzzz)
+
+\begin{itemize}
+    \item Xxx identifica il prefisso dell'archivio oppure il suo uso
+
+    \item Yyy definisce il tipo di campo
+
+    \item Zzzz definisce l'identificativo della variabile. Questo è opzionale.
+    \begin{itemize}
+        \item La serie di caratteri che identifica la variabile deve essere lunga da un minimo di 3 ad un massimo di 4.
+        \item Eliminare le vocali, tranne nel caso in cui la parola da descrivere inizi con una vocale.
+        \item Eliminare le doppie, tranne nel caso in la contrazione porti ad una definizione non significativa.
+        \item Nel caso in cui l’entità da descrivere sia composta da più parole contrarre in funzione della parola più
+        significativa.
+    \end{itemize}
+\end{itemize}
+
+
+\section{Nomenclatura record}
+I nomi delle variabili usate nella definizione dei record devono essere lunghi 6 caratteri e devono rispettare la
+seguente struttura:
+QxxYyy
+\begin{itemize}
+    \item Q è fisso e sempre presente all'inizio della variabile
+
+    \item xx definisce l'uso
+    \begin{itemize}
+        \item dg=globale
+        \item dl=locale
+    \end{itemize}
+    \item Yyy identifica il prefisso del record a cui questa variabile fa riferimento
+\end{itemize}
+Esempio: QdgBpn Variabile globale per il record Business partners.
+
 
 \chapter{Struttura delle tabelle utilizzate}
-\subsection{Tabelle dei progetti di apprendimento}
+\section{Tabelle dei progetti di apprendimento}
 ANGCF00F
 
-La tabella angcf00f si occupa di immagazzinare le informazioni anagrafiche dei clienti e dei fornitori. Tra le informazioni disponibili sono presenti nome, indirizzo, ragione sociale, partita iva, telefono, fax, e-mail
 \begin{figure}[H]
     \begin{center}
-        \includegraphics[width=0.55\textwidth, angle=90]{database/angcf00f.jpg}
+        \includegraphics[width=0.7\textwidth, angle=90]{database/angcf00f.jpg}
     \end{center}
-    \caption{Dati tabella angcf00f}
+    \caption{Dati tabella ANGCF00F}
 \end{figure}
 
+\newpage
 ANGFL00F
 
-Questa tabella viene utilizzata per recuperare informazioni riguardo una determinata filiale come indirizzo, ragione sociale, telefono e email.
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.6\textwidth]{database/angfl00f.jpg}
+    \end{center}
+    \caption{Dati tabella ANGFL00F}
+\end{figure}
 
-La filiale è identificata dal codice filiale FLCDFL
+OCLGT00F 
 \begin{figure}[H]
     \begin{center}
-        \includegraphics[width=0.55\textwidth]{database/angfl00f.jpg}
+        \includegraphics[width=0.6\textwidth, angle=90]{database/oclgt00f.jpg}
     \end{center}
-    \caption{Dati tabella angfl00f}
+    \caption{Dati tabella OCLGT00F}
 \end{figure}
-oclgt00f 
+
+\newpage
+OCLGD00F
 \begin{figure}[H]
     \begin{center}
-        \includegraphics[width=0.55\textwidth]{database/angfl00f.jpg}
+        \includegraphics[width=0.7\textwidth]{database/oclgd00f.jpg}
     \end{center}
-    \caption{Dati tabella angfl00f}
+    \caption{Dati tabella OCLGD00F}
 \end{figure}
-ofrat00f
+
+\newpage
+OFRAT00F
 \begin{figure}[H]
     \begin{center}
-        \includegraphics[width=0.55\textwidth]{database/ofrat00f.jpg}
+        \includegraphics[width=0.7\textwidth]{database/ofrat00f.jpg}
     \end{center}
-    \caption{Dati tabella ofrat00f}
+    \caption{Dati tabella OFRAT00F}
 \end{figure}
-ofrad00f
+
+\newpage
+OFRAD00F
 \begin{figure}[H]
     \begin{center}
-        \includegraphics[width=0.55\textwidth]{database/ofrad00f.jpg}
+        \includegraphics[width=0.65\textwidth]{database/ofrad00f.jpg}
     \end{center}
-    \caption{Dati tabella ofrad00f}
+    \caption{Dati tabella OFRAD00F}
 \end{figure}
-%%qflag00f non ho ottenuto la struttura dall'azienda
-tbbse00f
+
+
+TBBSE00F
 \begin{figure}[H]
     \begin{center}
-        \includegraphics[width=0.55\textwidth]{database/tbbse00f.jpg}
+        \includegraphics[width=0.65\textwidth]{database/tbbse00f.jpg}
     \end{center}
-    \caption{Dati tabella tbbse00f}
+    \caption{Dati tabella TBBSE00F}
 \end{figure}
-oclgd00f
+
+
+\newpage
+\section{Tabelle progetto finale}
+GSTGAS00F
 \begin{figure}[H]
     \begin{center}
-        \includegraphics[width=0.55\textwidth]{database/oclgd00f.jpg}
+        \includegraphics[width=0.75\textwidth]{database/gstgas00f.jpg}
     \end{center}
-    \caption{Dati tabella oclgd00f}
+    \caption{Dati tabella GSTGAS00F}
 \end{figure}
-\subsection{Tabelle progetto finale}
-precns00f %data chiusura consultivo
-gstgas00v
-grtang00f
-dbqang00f 
-cdrazn00f %ultima data calendario
+
+GSTASS00F
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.75\textwidth]{database/gstass00f.jpg}
+    \end{center}
+    \caption{Dati tabella GSTASS00F}
+\end{figure}
+
+\newpage
+GRTANG00F
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.75\textwidth]{database/grtang00f.jpg}
+    \end{center}
+    \caption{Dati tabella GRTANG00F}
+\end{figure}
+
+DBQANG00F 
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.75\textwidth]{database/dbqang00f.jpg}
+    \end{center}
+    \caption{Dati tabella DBQANG00F}
+\end{figure}
+
 
 %% Parte conclusiva del documento; tipicamente per riassunto, bibliografia e/o indice analitico.
 \backmatter

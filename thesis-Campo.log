@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.31)  25 FEB 2025 18:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.31)  12 MAR 2025 16:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -880,7 +880,7 @@ LaTeX Font Info:    Trying to load font information for OT1+phv on input line 73
  (C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-<banners/banner_uniud_italian.pdf, id=278, 497.91017pt x 52.72789pt>
+<banners/banner_uniud_italian.pdf, id=330, 497.91017pt x 52.72789pt>
 File: banners/banner_uniud_italian.pdf Graphic file (type pdf)
 <use banners/banner_uniud_italian.pdf>
 Package pdftex.def Info: banners/banner_uniud_italian.pdf  used on input line 73.
@@ -952,7 +952,7 @@ Capitolo 2.
 
 [4]
 Capitolo 3.
-<./images/deltasystem.png, id=432, 187.45032pt x 54.2025pt>
+<./images/deltasystem.png, id=497, 187.45032pt x 54.2025pt>
 File: ./images/deltasystem.png Graphic file (type png)
 <use ./images/deltasystem.png>
 Package pdftex.def Info: ./images/deltasystem.png  used on input line 129.
@@ -962,7 +962,7 @@ Package pdftex.def Info: ./images/deltasystem.png  used on input line 129.
 [5
 
  <./images/deltasystem.png>]
-<./images/soluzioni.jpg, id=439, 1405.25pt x 602.25pt>
+<./images/soluzioni.jpg, id=504, 1405.25pt x 602.25pt>
 File: ./images/soluzioni.jpg Graphic file (type jpg)
 <use ./images/soluzioni.jpg>
 Package pdftex.def Info: ./images/soluzioni.jpg  used on input line 174.
@@ -970,22 +970,22 @@ Package pdftex.def Info: ./images/soluzioni.jpg  used on input line 174.
 
 
 [6 <./images/soluzioni.jpg>]
-<./images/unicloud.png, id=449, 961.5925pt x 284.06125pt>
+<./images/unicloud.png, id=514, 961.5925pt x 284.06125pt>
 File: ./images/unicloud.png Graphic file (type png)
 <use ./images/unicloud.png>
 Package pdftex.def Info: ./images/unicloud.png  used on input line 184.
 (pdftex.def)             Requested size: 147.5927pt x 43.60266pt.
-<./images/unigea.png, id=450, 814.04124pt x 284.06125pt>
+<./images/unigea.png, id=515, 814.04124pt x 284.06125pt>
 File: ./images/unigea.png Graphic file (type png)
 <use ./images/unigea.png>
 Package pdftex.def Info: ./images/unigea.png  used on input line 209.
 (pdftex.def)             Requested size: 124.94537pt x 43.60266pt.
-<./images/quickvision.png, id=451, 1160.335pt x 284.06125pt>
+<./images/quickvision.png, id=516, 1160.335pt x 284.06125pt>
 File: ./images/quickvision.png Graphic file (type png)
 <use ./images/quickvision.png>
 Package pdftex.def Info: ./images/quickvision.png  used on input line 230.
 (pdftex.def)             Requested size: 178.09724pt x 43.60266pt.
-<./images/pigreco.png, id=452, 335.00156pt x 106.89937pt>
+<./images/pigreco.png, id=517, 335.00156pt x 106.89937pt>
 File: ./images/pigreco.png Graphic file (type png)
 <use ./images/pigreco.png>
 Package pdftex.def Info: ./images/pigreco.png  used on input line 247.
@@ -995,7 +995,7 @@ Package pdftex.def Info: ./images/pigreco.png  used on input line 247.
 [7
 
  <./images/unicloud.png> <./images/unigea.png> <./images/quickvision.png> <./images/pigreco.png>]
-<./images/mio.png, id=465, 493.845pt x 189.70876pt>
+<./images/mio.png, id=530, 493.845pt x 189.70876pt>
 File: ./images/mio.png Graphic file (type png)
 <use ./images/mio.png>
 Package pdftex.def Info: ./images/mio.png  used on input line 265.
@@ -1009,21 +1009,21 @@ Capitolo 4.
 [9
 
 ]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 344.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 350.
 
 
 [10]
-Overfull \hbox (72.50664pt too wide) in paragraph at lines 379--380
+Overfull \hbox (72.50664pt too wide) in paragraph at lines 385--386
 [][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (72.50664pt too wide) in paragraph at lines 384--385
+Overfull \hbox (72.50664pt too wide) in paragraph at lines 390--391
 [][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (72.50664pt too wide) in paragraph at lines 389--390
+Overfull \hbox (72.50664pt too wide) in paragraph at lines 395--396
 [][][][][][][][][][][][][][][][][][]  
  []
 
@@ -1032,8 +1032,53 @@ Overfull \hbox (72.50664pt too wide) in paragraph at lines 389--390
 [11]
 
 [12]
+Underfull \hbox (badness 10000) in paragraph at lines 473--492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 473--492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 473--492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 473--492
+
+ []
+
+
 
 [13]
+Underfull \hbox (badness 10000) in paragraph at lines 501--520
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--520
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--520
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--520
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--520
+
+ []
+
+
 
 [14]
 
@@ -1041,58 +1086,265 @@ Overfull \hbox (72.50664pt too wide) in paragraph at lines 389--390
 
 [16]
 Capitolo 5.
+<./images/diagrammi/caso d'uso 1.png, id=586, 513.117pt x 370.986pt>
+File: ./images/diagrammi/caso d'uso 1.png Graphic file (type png)
+<use ./images/diagrammi/caso d'uso 1.png>
+Package pdftex.def Info: ./images/diagrammi/caso d'uso 1.png  used on input line 544.
+(pdftex.def)             Requested size: 295.77379pt x 213.85306pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 [17
 
 ]
+<./images/diagrammi/state progetto 1.png, id=591, 696.80325pt x 354.123pt>
+File: ./images/diagrammi/state progetto 1.png Graphic file (type png)
+<use ./images/diagrammi/state progetto 1.png>
+Package pdftex.def Info: ./images/diagrammi/state progetto 1.png  used on input line 554.
+(pdftex.def)             Requested size: 492.95131pt x 250.52669pt.
+<./images/diagrammi/flusso.png, id=592, 383.63326pt x 455.301pt>
+File: ./images/diagrammi/flusso.png Graphic file (type png)
+<use ./images/diagrammi/flusso.png>
+Package pdftex.def Info: ./images/diagrammi/flusso.png  used on input line 566.
+(pdftex.def)             Requested size: 345.0644pt x 409.5309pt.
 
-[18]
+
+[18 <./images/diagrammi/caso d'uso 1.png> <./images/diagrammi/state progetto 1.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[19 <./images/diagrammi/flusso.png>]
+<./images/st2/ST2010.png, id=607, 1094.58937pt x 645.91313pt>
+File: ./images/st2/ST2010.png Graphic file (type png)
+<use ./images/st2/ST2010.png>
+Package pdftex.def Info: ./images/st2/ST2010.png  used on input line 590.
+(pdftex.def)             Requested size: 443.65317pt x 261.80035pt.
+<./images/st2/struttura ST2010.png, id=609, 1096.84781pt x 606.76688pt>
+File: ./images/st2/struttura ST2010.png Graphic file (type png)
+<use ./images/st2/struttura ST2010.png>
+Package pdftex.def Info: ./images/st2/struttura ST2010.png  used on input line 596.
+(pdftex.def)             Requested size: 443.65317pt x 245.42445pt.
+
+
+[20 <./images/st2/ST2010.png> <./images/st2/struttura ST2010.png>]
+<./images/st2/ST2011 ordini.png, id=621, 1096.84781pt x 647.41875pt>
+File: ./images/st2/ST2011 ordini.png Graphic file (type png)
+<use ./images/st2/ST2011 ordini.png>
+Package pdftex.def Info: ./images/st2/ST2011 ordini.png  used on input line 633.
+(pdftex.def)             Requested size: 443.65317pt x 261.86728pt.
+<./images/st2/ST2011 filiali.png, id=623, 1094.58937pt x 650.43pt>
+File: ./images/st2/ST2011 filiali.png Graphic file (type png)
+<use ./images/st2/ST2011 filiali.png>
+Package pdftex.def Info: ./images/st2/ST2011 filiali.png  used on input line 639.
+(pdftex.def)             Requested size: 443.65317pt x 263.63112pt.
+
+
+[21 <./images/st2/ST2011 ordini.png>]
+<./images/st2/ST2012.png, id=633, 526.21594pt x 365.86688pt>
+File: ./images/st2/ST2012.png Graphic file (type png)
+<use ./images/st2/ST2012.png>
+Package pdftex.def Info: ./images/st2/ST2012.png  used on input line 653.
+(pdftex.def)             Requested size: 261.31677pt x 181.6852pt.
+
+Overfull \hbox (39.49019pt too wide) in paragraph at lines 653--654
+ [][] 
+ []
+
+<./images/st2/struttura ST2012.png, id=634, 389.20406pt x 313.17pt>
+File: ./images/st2/struttura ST2012.png Graphic file (type png)
+<use ./images/st2/struttura ST2012.png>
+Package pdftex.def Info: ./images/st2/struttura ST2012.png  used on input line 659.
+(pdftex.def)             Requested size: 225.80383pt x 181.6852pt.
+
+Overfull \hbox (3.97725pt too wide) in paragraph at lines 659--660
+ [][] 
+ []
+
+<./images/st2/ST2014.png, id=635, 871.00406pt x 405.76593pt>
+File: ./images/st2/ST2014.png Graphic file (type png)
+<use ./images/st2/ST2014.png>
+Package pdftex.def Info: ./images/st2/ST2014.png  used on input line 672.
+(pdftex.def)             Requested size: 254.25507pt x 159.88387pt.
+
+Overfull \hbox (32.42848pt too wide) in paragraph at lines 672--673
+ [][] 
+ []
+
+<./images/st2/struttura ST2014.png, id=637, 496.85625pt x 338.76563pt>
+File: ./images/st2/struttura ST2014.png Graphic file (type png)
+<use ./images/st2/struttura ST2014.png>
+Package pdftex.def Info: ./images/st2/struttura ST2014.png  used on input line 678.
+(pdftex.def)             Requested size: 234.50046pt x 159.88387pt.
+
+Overfull \hbox (12.67387pt too wide) in paragraph at lines 678--679
+ [][] 
+ []
+
+
+
+[22 <./images/st2/ST2012.png> <./images/st2/struttura ST2012.png> <./images/st2/ST2011 filiali.png>]
+<./images/st2/ST2015.png, id=649, 1000.48781pt x 498.36188pt>
+File: ./images/st2/ST2015.png Graphic file (type png)
+<use ./images/st2/ST2015.png>
+Package pdftex.def Info: ./images/st2/ST2015.png  used on input line 691.
+(pdftex.def)             Requested size: 443.65317pt x 220.99089pt.
+<./images/st2/struttura ST2015.png, id=651, 989.19562pt x 496.10344pt>
+File: ./images/st2/struttura ST2015.png Graphic file (type png)
+<use ./images/st2/struttura ST2015.png>
+Package pdftex.def Info: ./images/st2/struttura ST2015.png  used on input line 697.
+(pdftex.def)             Requested size: 443.65317pt x 222.50262pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[23 <./images/st2/struttura ST2014.png> <./images/st2/ST2014.png> <./images/st2/ST2015.png>]
+
+[24 <./images/st2/struttura ST2015.png>]
+<./images/quickvision/tabella nazioni proprietà.png, id=672, 1443.89438pt x 735.49782pt>
+File: ./images/quickvision/tabella nazioni proprietà.png Graphic file (type png)
+<use ./images/quickvision/tabella nazioni proprietà.png>
+Package pdftex.def Info: ./images/quickvision/tabella nazioni proprietà.png  used on input line 717.
+(pdftex.def)             Requested size: 492.95131pt x 251.09845pt.
+<./images/quickvision/pannello di configurazione progetto.png, id=674, 1444.64719pt x 765.6103pt>
+File: ./images/quickvision/pannello di configurazione progetto.png Graphic file (type png)
+<use ./images/quickvision/pannello di configurazione progetto.png>
+Package pdftex.def Info: ./images/quickvision/pannello di configurazione progetto.png  used on input line 725.
+(pdftex.def)             Requested size: 246.47565pt x 98.57655pt.
+
+
+[25 <./images/quickvision/tabella nazioni proprietà.png> <./images/quickvision/pannello di configurazione progetto.png>]
+<./images/quickvision/entità nazione.png, id=686, 1444.64719pt x 725.71124pt>
+File: ./images/quickvision/entità nazione.png Graphic file (type png)
+<use ./images/quickvision/entità nazione.png>
+Package pdftex.def Info: ./images/quickvision/entità nazione.png  used on input line 742.
+(pdftex.def)             Requested size: 246.47565pt x 213.96288pt.
+<./images/quickvision/apertura tabella cliente.png, id=688, 799.48688pt x 487.8225pt>
+File: ./images/quickvision/apertura tabella cliente.png Graphic file (type png)
+<use ./images/quickvision/apertura tabella cliente.png>
+Package pdftex.def Info: ./images/quickvision/apertura tabella cliente.png  used on input line 792.
+(pdftex.def)             Requested size: 221.82658pt x 135.34628pt.
+<./images/quickvision/apertura tabella qr.png, id=689, 757.32938pt x 404.26031pt>
+File: ./images/quickvision/apertura tabella qr.png Graphic file (type png)
+<use ./images/quickvision/apertura tabella qr.png>
+Package pdftex.def Info: ./images/quickvision/apertura tabella qr.png  used on input line 798.
+(pdftex.def)             Requested size: 221.82658pt x 118.41066pt.
+
+
+[26 <./images/quickvision/entità nazione.png>]
+<./images/quickvision/tabella cliente.png, id=700, 403.5075pt x 684.30656pt>
+File: ./images/quickvision/tabella cliente.png Graphic file (type png)
+<use ./images/quickvision/tabella cliente.png>
+Package pdftex.def Info: ./images/quickvision/tabella cliente.png  used on input line 812.
+(pdftex.def)             Requested size: 133.09729pt x 225.71744pt.
+<./images/quickvision/tabella nazione.png, id=701, 518.6878pt x 679.03688pt>
+File: ./images/quickvision/tabella nazione.png Graphic file (type png)
+<use ./images/quickvision/tabella nazione.png>
+Package pdftex.def Info: ./images/quickvision/tabella nazione.png  used on input line 818.
+(pdftex.def)             Requested size: 166.36993pt x 217.80394pt.
+File: ./images/quickvision/tabella nazioni proprietà.png Graphic file (type png)
+<use ./images/quickvision/tabella nazioni proprietà.png>
+Package pdftex.def Info: ./images/quickvision/tabella nazioni proprietà.png  used on input line 828.
+(pdftex.def)             Requested size: 177.46193pt x 95.35985pt.
+<./images/quickvision/tabella clienti proprietà.png, id=703, 1442.38875pt x 764.8575pt>
+File: ./images/quickvision/tabella clienti proprietà.png Graphic file (type png)
+<use ./images/quickvision/tabella clienti proprietà.png>
+Package pdftex.def Info: ./images/quickvision/tabella clienti proprietà.png  used on input line 834.
+(pdftex.def)             Requested size: 177.46193pt x 96.20692pt.
+<./images/quickvision/configurazione schema.png, id=705, 776.14969pt x 442.65375pt>
+File: ./images/quickvision/configurazione schema.png Graphic file (type png)
+<use ./images/quickvision/configurazione schema.png>
+Package pdftex.def Info: ./images/quickvision/configurazione schema.png  used on input line 844.
+(pdftex.def)             Requested size: 246.47565pt x 140.56464pt.
+
+
+[27 <./images/quickvision/apertura tabella cliente.png> <./images/quickvision/apertura tabella qr.png> <./images/quickvision/tabella cliente.png> <./images/quickvision/tabella nazione.png> <./images/quickvision/tabella clienti proprietà.png>]
+<./images/quickvision/schema.png, id=724, 1444.64719pt x 812.28468pt>
+File: ./images/quickvision/schema.png Graphic file (type png)
+<use ./images/quickvision/schema.png>
+Package pdftex.def Info: ./images/quickvision/schema.png  used on input line 857.
+(pdftex.def)             Requested size: 345.0644pt x 194.01033pt.
+
+
+[28 <./images/quickvision/configurazione schema.png> <./images/quickvision/schema.png>]
+<./images/quickvision/filtro.png, id=736, 993.7125pt x 677.53125pt>
+File: ./images/quickvision/filtro.png Graphic file (type png)
+<use ./images/quickvision/filtro.png>
+Package pdftex.def Info: ./images/quickvision/filtro.png  used on input line 882.
+(pdftex.def)             Requested size: 221.82658pt x 265.10454pt.
+<./images/quickvision/filtro list.png, id=738, 588.69937pt x 679.03688pt>
+File: ./images/quickvision/filtro list.png Graphic file (type png)
+<use ./images/quickvision/filtro list.png>
+Package pdftex.def Info: ./images/quickvision/filtro list.png  used on input line 888.
+(pdftex.def)             Requested size: 221.82658pt x 255.86082pt.
+<./images/quickvision/cartella progetto.png, id=739, 840.13875pt x 622.57594pt>
+File: ./images/quickvision/cartella progetto.png Graphic file (type png)
+<use ./images/quickvision/cartella progetto.png>
+Package pdftex.def Info: ./images/quickvision/cartella progetto.png  used on input line 900.
+(pdftex.def)             Requested size: 246.47565pt x 182.64183pt.
+
+
+[29 <./images/quickvision/filtro list.png> <./images/quickvision/cartella progetto.png> <./images/quickvision/filtro.png>]
+
+[30]
 Capitolo 6.
+<./images/diagrammi/caso d'uso finale.png, id=755, 446.8695pt x 304.7385pt>
+File: ./images/diagrammi/caso d'uso finale.png Graphic file (type png)
+<use ./images/diagrammi/caso d'uso finale.png>
+Package pdftex.def Info: ./images/diagrammi/caso d'uso finale.png  used on input line 931.
+(pdftex.def)             Requested size: 295.77379pt x 201.70926pt.
 
 
-[19
+[31
 
 ]
-<./images/screenshot/Interfaccia_gsa080.png, id=541, 174.6525pt x 155.07938pt>
+<./images/diagrammi/state progetto finale.png, id=768, 726.3135pt x 349.305pt>
+File: ./images/diagrammi/state progetto finale.png Graphic file (type png)
+<use ./images/diagrammi/state progetto finale.png>
+Package pdftex.def Info: ./images/diagrammi/state progetto finale.png  used on input line 940.
+(pdftex.def)             Requested size: 394.36255pt x 189.66655pt.
+
+
+[32 <./images/diagrammi/caso d'uso finale.png> <./images/diagrammi/state progetto finale.png>]
+<./images/screenshot/Interfaccia_gsa080.png, id=777, 174.6525pt x 155.07938pt>
 File: ./images/screenshot/Interfaccia_gsa080.png Graphic file (type png)
 <use ./images/screenshot/Interfaccia_gsa080.png>
-Package pdftex.def Info: ./images/screenshot/Interfaccia_gsa080.png  used on input line 641.
+Package pdftex.def Info: ./images/screenshot/Interfaccia_gsa080.png  used on input line 973.
 (pdftex.def)             Requested size: 221.82658pt x 196.97935pt.
-<./images/screenshot/Struttura_gsa080.png, id=542, 200.24812pt x 213.79875pt>
+<./images/screenshot/Struttura_gsa080.png, id=778, 200.24812pt x 213.79875pt>
 File: ./images/screenshot/Struttura_gsa080.png Graphic file (type png)
 <use ./images/screenshot/Struttura_gsa080.png>
-Package pdftex.def Info: ./images/screenshot/Struttura_gsa080.png  used on input line 647.
+Package pdftex.def Info: ./images/screenshot/Struttura_gsa080.png  used on input line 979.
 (pdftex.def)             Requested size: 221.82658pt x 236.8529pt.
 
 
-[20 <./images/screenshot/Interfaccia_gsa080.png> <./images/screenshot/Struttura_gsa080.png>]
+[33 <./images/screenshot/Interfaccia_gsa080.png> <./images/screenshot/Struttura_gsa080.png>]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 673.
-
-Underfull \vbox (badness 1360) has occurred while \output is active []
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1003.
 
 
-
-[21]
-<./images/screenshot/Interfaccia_gsa081_DAU.png, id=589, 329.73187pt x 380.17032pt>
+[34]
+<./images/screenshot/Interfaccia_gsa081_DAU.png, id=820, 329.73187pt x 380.17032pt>
 File: ./images/screenshot/Interfaccia_gsa081_DAU.png Graphic file (type png)
 <use ./images/screenshot/Interfaccia_gsa081_DAU.png>
-Package pdftex.def Info: ./images/screenshot/Interfaccia_gsa081_DAU.png  used on input line 720.
+Package pdftex.def Info: ./images/screenshot/Interfaccia_gsa081_DAU.png  used on input line 1050.
 (pdftex.def)             Requested size: 147.88689pt x 170.51236pt.
-<./images/screenshot/Interfaccia_gsa081_AUT.png, id=590, 325.215pt x 374.14781pt>
+<./images/screenshot/Interfaccia_gsa081_AUT.png, id=821, 325.215pt x 374.14781pt>
 File: ./images/screenshot/Interfaccia_gsa081_AUT.png Graphic file (type png)
 <use ./images/screenshot/Interfaccia_gsa081_AUT.png>
-Package pdftex.def Info: ./images/screenshot/Interfaccia_gsa081_AUT.png  used on input line 726.
+Package pdftex.def Info: ./images/screenshot/Interfaccia_gsa081_AUT.png  used on input line 1056.
 (pdftex.def)             Requested size: 147.88689pt x 170.14046pt.
-<./images/screenshot/Struttura_gsa081.png, id=591, 344.78813pt x 410.2828pt>
+<./images/screenshot/Struttura_gsa081.png, id=822, 344.78813pt x 410.2828pt>
 File: ./images/screenshot/Struttura_gsa081.png Graphic file (type png)
 <use ./images/screenshot/Struttura_gsa081.png>
-Package pdftex.def Info: ./images/screenshot/Struttura_gsa081.png  used on input line 732.
+Package pdftex.def Info: ./images/screenshot/Struttura_gsa081.png  used on input line 1062.
 (pdftex.def)             Requested size: 147.88689pt x 175.97993pt.
 
-Underfull \hbox (badness 2495) in paragraph at lines 733--733
-[]\OT1/cmr/m/n/10.95 Figura 6.5: []struttura del-la
+Underfull \hbox (badness 2495) in paragraph at lines 1063--1063
+[]\OT1/cmr/m/n/10.95 Figura 6.7: []struttura del-la
  []
 
 
@@ -1100,138 +1352,239 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[22 <./images/screenshot/Interfaccia_gsa081_DAU.png> <./images/screenshot/Interfaccia_gsa081_AUT.png> <./images/screenshot/Struttura_gsa081.png>]
+[35 <./images/screenshot/Interfaccia_gsa081_DAU.png> <./images/screenshot/Interfaccia_gsa081_AUT.png> <./images/screenshot/Struttura_gsa081.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[23]
+[36]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[24]
-<./images/screenshot/Interfaccia_gsa082.png, id=666, 292.84406pt x 440.39531pt>
+[37]
+<./images/screenshot/Interfaccia_gsa082.png, id=902, 292.84406pt x 440.39531pt>
 File: ./images/screenshot/Interfaccia_gsa082.png Graphic file (type png)
 <use ./images/screenshot/Interfaccia_gsa082.png>
-Package pdftex.def Info: ./images/screenshot/Interfaccia_gsa082.png  used on input line 826.
+Package pdftex.def Info: ./images/screenshot/Interfaccia_gsa082.png  used on input line 1160.
 (pdftex.def)             Requested size: 221.82658pt x 333.60857pt.
-<./images/screenshot/Struttura_gsa082.png, id=667, 313.17pt x 483.30562pt>
+<./images/screenshot/Struttura_gsa082.png, id=903, 313.17pt x 483.30562pt>
 File: ./images/screenshot/Struttura_gsa082.png Graphic file (type png)
 <use ./images/screenshot/Struttura_gsa082.png>
-Package pdftex.def Info: ./images/screenshot/Struttura_gsa082.png  used on input line 832.
+Package pdftex.def Info: ./images/screenshot/Struttura_gsa082.png  used on input line 1166.
 (pdftex.def)             Requested size: 221.82658pt x 342.34555pt.
 
 
-[25 <./images/screenshot/Interfaccia_gsa082.png> <./images/screenshot/Struttura_gsa082.png>]
+[38 <./images/screenshot/Interfaccia_gsa082.png> <./images/screenshot/Struttura_gsa082.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[26]
-<./images/screenshot/Interfaccia_gsa084_ferie.png, id=715, 218.31563pt x 253.69781pt>
+[39]
+<./images/screenshot/Interfaccia_gsa084_ferie.png, id=952, 218.31563pt x 253.69781pt>
 File: ./images/screenshot/Interfaccia_gsa084_ferie.png Graphic file (type png)
 <use ./images/screenshot/Interfaccia_gsa084_ferie.png>
-Package pdftex.def Info: ./images/screenshot/Interfaccia_gsa084_ferie.png  used on input line 912.
+Package pdftex.def Info: ./images/screenshot/Interfaccia_gsa084_ferie.png  used on input line 1246.
 (pdftex.def)             Requested size: 147.88689pt x 171.85414pt.
-<./images/screenshot/Interfaccia_gsa084_AUT.png, id=716, 219.82124pt x 255.20343pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1247--1247
+[]\OT1/cmr/m/n/10.95 Figura 6.10: []schermata
+ []
+
+<./images/screenshot/Interfaccia_gsa084_AUT.png, id=953, 219.82124pt x 255.20343pt>
 File: ./images/screenshot/Interfaccia_gsa084_AUT.png Graphic file (type png)
 <use ./images/screenshot/Interfaccia_gsa084_AUT.png>
-Package pdftex.def Info: ./images/screenshot/Interfaccia_gsa084_AUT.png  used on input line 918.
+Package pdftex.def Info: ./images/screenshot/Interfaccia_gsa084_AUT.png  used on input line 1252.
 (pdftex.def)             Requested size: 147.88689pt x 171.69412pt.
-<./images/screenshot/Struttura_gsa084.png, id=717, 267.24844pt x 304.88907pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1253--1253
+[]\OT1/cmr/m/n/10.95 Figura 6.11: []schermata
+ []
+
+<./images/screenshot/Struttura_gsa084.png, id=954, 267.24844pt x 304.88907pt>
 File: ./images/screenshot/Struttura_gsa084.png Graphic file (type png)
 <use ./images/screenshot/Struttura_gsa084.png>
-Package pdftex.def Info: ./images/screenshot/Struttura_gsa084.png  used on input line 924.
+Package pdftex.def Info: ./images/screenshot/Struttura_gsa084.png  used on input line 1258.
 (pdftex.def)             Requested size: 147.88689pt x 168.72229pt.
 
-Underfull \hbox (badness 1028) in paragraph at lines 925--925
-[]\OT1/cmr/m/n/10.95 Figura 6.10: []struttura del-la
+Underfull \hbox (badness 1028) in paragraph at lines 1259--1259
+[]\OT1/cmr/m/n/10.95 Figura 6.12: []struttura del-la
  []
 
 
 
-[27 <./images/screenshot/Interfaccia_gsa084_ferie.png> <./images/screenshot/Interfaccia_gsa084_AUT.png> <./images/screenshot/Struttura_gsa084.png>]
+[40 <./images/screenshot/Interfaccia_gsa084_ferie.png> <./images/screenshot/Interfaccia_gsa084_AUT.png> <./images/screenshot/Struttura_gsa084.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1277--1283
 
-[28]
+ []
 
-[29]
 
-[30
+Underfull \hbox (badness 10000) in paragraph at lines 1277--1283
 
-]
+ []
+
+<./images/screenshot/Interfaccia_gsa084_errore.png, id=965, 220.57407pt x 252.945pt>
+File: ./images/screenshot/Interfaccia_gsa084_errore.png Graphic file (type png)
+<use ./images/screenshot/Interfaccia_gsa084_errore.png>
+Package pdftex.def Info: ./images/screenshot/Interfaccia_gsa084_errore.png  used on input line 1301.
+(pdftex.def)             Requested size: 172.53596pt x 197.86366pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images/screenshot/Lista_gsb120.png, id=966, 663.98062pt x 624.83438pt>
+File: ./images/screenshot/Lista_gsb120.png Graphic file (type png)
+<use ./images/screenshot/Lista_gsb120.png>
+Package pdftex.def Info: ./images/screenshot/Lista_gsb120.png  used on input line 1312.
+(pdftex.def)             Requested size: 295.77379pt x 278.33168pt.
+
+
+[41]
+
+[42 <./images/screenshot/Interfaccia_gsa084_errore.png> <./images/screenshot/Lista_gsb120.png>]
+<./images/screenshot/mobile GSA080.png, id=993, 281.55188pt x 606.01407pt>
+File: ./images/screenshot/mobile GSA080.png Graphic file (type png)
+<use ./images/screenshot/mobile GSA080.png>
+Package pdftex.def Info: ./images/screenshot/mobile GSA080.png  used on input line 1320.
+(pdftex.def)             Requested size: 123.23782pt x 265.25996pt.
+
+Underfull \hbox (badness 1117) in paragraph at lines 1321--1321
+[]\OT1/cmr/m/n/10.95 Figura 6.15: []schermata
+ []
+
+<./images/screenshot/Mobile GSA082.png, id=994, 277.035pt x 595.47469pt>
+File: ./images/screenshot/Mobile GSA082.png Graphic file (type png)
+<use ./images/screenshot/Mobile GSA082.png>
+Package pdftex.def Info: ./images/screenshot/Mobile GSA082.png  used on input line 1326.
+(pdftex.def)             Requested size: 123.23782pt x 264.88998pt.
+
+Underfull \hbox (badness 1117) in paragraph at lines 1327--1327
+[]\OT1/cmr/m/n/10.95 Figura 6.16: []schermata
+ []
+
+<./images/screenshot/Mobile GSA084 step1.png, id=995, 276.28218pt x 602.25pt>
+File: ./images/screenshot/Mobile GSA084 step1.png Graphic file (type png)
+<use ./images/screenshot/Mobile GSA084 step1.png>
+Package pdftex.def Info: ./images/screenshot/Mobile GSA084 step1.png  used on input line 1332.
+(pdftex.def)             Requested size: 123.23782pt x 268.62988pt.
+
+Underfull \hbox (badness 1117) in paragraph at lines 1333--1333
+[]\OT1/cmr/m/n/10.95 Figura 6.17: []schermata
+ []
+
+<./images/screenshot/Mobile GSA084 Ferie.png, id=996, 281.55188pt x 597.73312pt>
+File: ./images/screenshot/Mobile GSA084 Ferie.png Graphic file (type png)
+<use ./images/screenshot/Mobile GSA084 Ferie.png>
+Package pdftex.def Info: ./images/screenshot/Mobile GSA084 Ferie.png  used on input line 1341.
+(pdftex.def)             Requested size: 123.23782pt x 261.63528pt.
+<./images/screenshot/Mobile GSA084 Permesso.png, id=997, 279.29344pt x 602.25pt>
+File: ./images/screenshot/Mobile GSA084 Permesso.png Graphic file (type png)
+<use ./images/screenshot/Mobile GSA084 Permesso.png>
+Package pdftex.def Info: ./images/screenshot/Mobile GSA084 Permesso.png  used on input line 1347.
+(pdftex.def)             Requested size: 123.23782pt x 265.74435pt.
+<./images/screenshot/Mobile GSA081 da approvare.png, id=998, 280.04625pt x 602.25pt>
+File: ./images/screenshot/Mobile GSA081 da approvare.png Graphic file (type png)
+<use ./images/screenshot/Mobile GSA081 da approvare.png>
+Package pdftex.def Info: ./images/screenshot/Mobile GSA081 da approvare.png  used on input line 1353.
+(pdftex.def)             Requested size: 123.23782pt x 265.02757pt.
+
+Underfull \hbox (badness 1117) in paragraph at lines 1354--1354
+[]\OT1/cmr/m/n/10.95 Figura 6.20: []schermata
+ []
+
+
+
+[43 <./images/screenshot/mobile GSA080.png> <./images/screenshot/Mobile GSA082.png> <./images/screenshot/Mobile GSA084 step1.png> <./images/screenshot/Mobile GSA084 Ferie.png> <./images/screenshot/Mobile GSA084 Permesso.png> <./images/screenshot/Mobile GSA081 da approvare.png>]
+
+[44]
 Appendice A.
 
 
-[31]
+[45
 
-[32]
+]
+
+[46]
 Appendice B.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 940.
-
-<./images/database/angcf00f.jpg, id=749, 501.072pt x 466.3824pt>
+<./images/database/angcf00f.jpg, id=1028, 501.072pt x 466.3824pt>
 File: ./images/database/angcf00f.jpg Graphic file (type jpg)
 <use ./images/database/angcf00f.jpg>
-Package pdftex.def Info: ./images/database/angcf00f.jpg  used on input line 946.
-(pdftex.def)             Requested size: 271.12471pt x 252.35512pt.
-<./images/database/angfl00f.jpg, id=750, 381.5856pt x 325.215pt>
-File: ./images/database/angfl00f.jpg Graphic file (type jpg)
-<use ./images/database/angfl00f.jpg>
-Package pdftex.def Info: ./images/database/angfl00f.jpg  used on input line 958.
-(pdftex.def)             Requested size: 271.12471pt x 231.0829pt.
+Package pdftex.def Info: ./images/database/angcf00f.jpg  used on input line 1447.
+(pdftex.def)             Requested size: 345.0644pt x 321.17795pt.
 
 
-[33
+[47
 
  <./images/database/angcf00f.jpg>]
+<./images/database/angfl00f.jpg, id=1034, 381.5856pt x 325.215pt>
 File: ./images/database/angfl00f.jpg Graphic file (type jpg)
 <use ./images/database/angfl00f.jpg>
-Package pdftex.def Info: ./images/database/angfl00f.jpg  used on input line 965.
-(pdftex.def)             Requested size: 271.12471pt x 231.0829pt.
-<./images/database/ofrat00f.jpg, id=757, 389.2944pt x 458.6736pt>
-File: ./images/database/ofrat00f.jpg Graphic file (type jpg)
-<use ./images/database/ofrat00f.jpg>
-Package pdftex.def Info: ./images/database/ofrat00f.jpg  used on input line 972.
-(pdftex.def)             Requested size: 271.12471pt x 319.4526pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Package pdftex.def Info: ./images/database/angfl00f.jpg  used on input line 1457.
+(pdftex.def)             Requested size: 295.77379pt x 252.0936pt.
+<./images/database/oclgt00f.jpg, id=1035, 462.528pt x 389.2944pt>
+File: ./images/database/oclgt00f.jpg Graphic file (type jpg)
+<use ./images/database/oclgt00f.jpg>
+Package pdftex.def Info: ./images/database/oclgt00f.jpg  used on input line 1465.
+(pdftex.def)             Requested size: 295.77379pt x 248.95154pt.
 
 
-
-[34 <./images/database/angfl00f.jpg>]
-<./images/database/ofrad00f.jpg, id=764, 393.1488pt x 454.8192pt>
-File: ./images/database/ofrad00f.jpg Graphic file (type jpg)
-<use ./images/database/ofrad00f.jpg>
-Package pdftex.def Info: ./images/database/ofrad00f.jpg  used on input line 979.
-(pdftex.def)             Requested size: 271.12471pt x 313.66595pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[35 <./images/database/ofrat00f.jpg>]
-<./images/database/tbbse00f.jpg, id=770, 377.7312pt x 216.81pt>
-File: ./images/database/tbbse00f.jpg Graphic file (type jpg)
-<use ./images/database/tbbse00f.jpg>
-Package pdftex.def Info: ./images/database/tbbse00f.jpg  used on input line 987.
-(pdftex.def)             Requested size: 271.12471pt x 155.62337pt.
-<./images/database/oclgd00f.jpg, id=771, 381.5856pt x 450.9648pt>
+[48 <./images/database/angfl00f.jpg> <./images/database/oclgt00f.jpg>]
+<./images/database/oclgd00f.jpg, id=1042, 381.5856pt x 450.9648pt>
 File: ./images/database/oclgd00f.jpg Graphic file (type jpg)
 <use ./images/database/oclgd00f.jpg>
-Package pdftex.def Info: ./images/database/oclgd00f.jpg  used on input line 994.
-(pdftex.def)             Requested size: 271.12471pt x 320.43495pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Package pdftex.def Info: ./images/database/oclgd00f.jpg  used on input line 1474.
+(pdftex.def)             Requested size: 345.0644pt x 407.82568pt.
 
 
+[49 <./images/database/oclgd00f.jpg>]
+<./images/database/ofrat00f.jpg, id=1048, 389.2944pt x 458.6736pt>
+File: ./images/database/ofrat00f.jpg Graphic file (type jpg)
+<use ./images/database/ofrat00f.jpg>
+Package pdftex.def Info: ./images/database/ofrat00f.jpg  used on input line 1483.
+(pdftex.def)             Requested size: 345.0644pt x 406.5735pt.
 
-[36 <./images/database/ofrad00f.jpg> <./images/database/tbbse00f.jpg>]
 
-[37 <./images/database/oclgd00f.jpg>]
+[50 <./images/database/ofrat00f.jpg>]
+<./images/database/ofrad00f.jpg, id=1054, 393.1488pt x 454.8192pt>
+File: ./images/database/ofrad00f.jpg Graphic file (type jpg)
+<use ./images/database/ofrad00f.jpg>
+Package pdftex.def Info: ./images/database/ofrad00f.jpg  used on input line 1492.
+(pdftex.def)             Requested size: 320.41533pt x 370.69173pt.
+<./images/database/tbbse00f.jpg, id=1055, 377.7312pt x 216.81pt>
+File: ./images/database/tbbse00f.jpg Graphic file (type jpg)
+<use ./images/database/tbbse00f.jpg>
+Package pdftex.def Info: ./images/database/tbbse00f.jpg  used on input line 1501.
+(pdftex.def)             Requested size: 320.41533pt x 183.91553pt.
 
-[38]
+
+[51 <./images/database/ofrad00f.jpg> <./images/database/tbbse00f.jpg>]
+<./images/database/gstgas00f.jpg, id=1063, 535.7616pt x 223.5552pt>
+File: ./images/database/gstgas00f.jpg Graphic file (type jpg)
+<use ./images/database/gstgas00f.jpg>
+Package pdftex.def Info: ./images/database/gstgas00f.jpg  used on input line 1512.
+(pdftex.def)             Requested size: 369.71347pt x 154.2703pt.
+<./images/database/gstass00f.jpg, id=1064, 547.3248pt x 373.8768pt>
+File: ./images/database/gstass00f.jpg Graphic file (type jpg)
+<use ./images/database/gstass00f.jpg>
+Package pdftex.def Info: ./images/database/gstass00f.jpg  used on input line 1520.
+(pdftex.def)             Requested size: 369.71347pt x 252.55562pt.
+
+
+[52 <./images/database/gstgas00f.jpg> <./images/database/gstass00f.jpg>]
+<./images/database/grtang00f.jpg, id=1071, 528.0528pt x 520.344pt>
+File: ./images/database/grtang00f.jpg Graphic file (type jpg)
+<use ./images/database/grtang00f.jpg>
+Package pdftex.def Info: ./images/database/grtang00f.jpg  used on input line 1529.
+(pdftex.def)             Requested size: 369.71347pt x 364.32564pt.
+<./images/database/dbqang00f.jpg, id=1072, 535.7616pt x 169.5936pt>
+File: ./images/database/dbqang00f.jpg Graphic file (type jpg)
+<use ./images/database/dbqang00f.jpg>
+Package pdftex.def Info: ./images/database/dbqang00f.jpg  used on input line 1537.
+(pdftex.def)             Requested size: 369.71347pt x 117.03264pt.
+
+
+[53 <./images/database/grtang00f.jpg> <./images/database/dbqang00f.jpg>]
+
+[54]
 No file thesis-Campo.bbl.
 (thesis-Campo.aux)
  ***********
@@ -1243,21 +1596,21 @@ L3 programming layer <2024-10-09>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis-Campo.out' has not changed.
-(rerunfilecheck)             Checksum: 3B8CCB59698CF8B87B2D30E9F085C4C3;10187.
+(rerunfilecheck)             Checksum: DEFB90AC4AD3E04F0654D92E07BEECD2;12250.
  )
 (\end occurred when \ifx on line 10 was incomplete) 
 Here is how much of TeX's memory you used:
- 16950 strings out of 473896
- 265529 string characters out of 5725496
- 725586 words of memory out of 5000000
- 39286 multiletter control sequences out of 15000+600000
+ 17423 strings out of 473896
+ 282133 string characters out of 5725496
+ 725581 words of memory out of 5000000
+ 39669 multiletter control sequences out of 15000+600000
  577255 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  86i,9n,95p,949b,3502s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Lorenzo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on thesis-Campo.pdf (48 pages, 3325078 bytes).
+Output written on thesis-Campo.pdf (64 pages, 8670741 bytes).
 PDF statistics:
- 888 PDF objects out of 1000 (max. 8388607)
- 294 named destinations out of 1000 (max. 500000)
- 677 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1201 PDF objects out of 1440 (max. 8388607)
+ 384 named destinations out of 1000 (max. 500000)
+ 1064 words of extra memory for PDF output out of 10000 (max. 10000000)
 

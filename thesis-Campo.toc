@@ -16,6 +16,7 @@
 \contentsline {subsection}{\numberline {3.4.3}Quickvision}{7}{subsection.3.4.3}%
 \contentsline {subsection}{\numberline {3.4.4}Pigreco}{7}{subsection.3.4.4}%
 \contentsline {subsection}{\numberline {3.4.5}MIO}{8}{subsection.3.4.5}%
+\contentsline {section}{\numberline {3.5}Il team}{8}{section.3.5}%
 \contentsline {chapter}{\numberline {4}Applicazioni utilizzate}{9}{chapter.4}%
 \contentsline {section}{\numberline {4.1}IBM Rational Developer for i}{9}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Live Parsing Extensible Editor (LPEX)}{9}{subsection.4.1.1}%
@@ -29,42 +30,54 @@
 \contentsline {subsection}{\numberline {4.3.2}attributi}{12}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4.3.3}scheletro}{12}{subsection.4.3.3}%
 \contentsline {section}{\numberline {4.4}Quickvision}{13}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Protocollo GSB}{13}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Nomenclatura archivi}{13}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Nomenclatura programmi}{14}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Nomenclatura campi}{14}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Nomenclatura record}{14}{subsection.4.5.4}%
-\contentsline {section}{\numberline {4.6}Database}{15}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Tabelle dei progetti di apprendimento}{15}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Tabelle progetto finale}{15}{subsection.4.6.2}%
+\contentsline {section}{\numberline {4.5}Database}{13}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Tabelle dei progetti di apprendimento}{13}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Tabelle progetto finale}{14}{subsection.4.5.2}%
 \contentsline {chapter}{\numberline {5}Progetti di apprendimento}{17}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Scopo}{17}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Progetto 1, schermata di gestione di clienti e fornitori tramite gestionale unigea}{17}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}ST2010}{17}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}ST2011}{17}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}ST2012}{17}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}ST2014}{17}{subsection.5.2.4}%
-\contentsline {subsection}{\numberline {5.2.5}ST2015 e ST2016}{17}{subsection.5.2.5}%
-\contentsline {section}{\numberline {5.3}Progetto 2, visualizzazione interattiva degli ordini tramite l'utilizzo di quickvision}{18}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Programma finale, richieste ferie e permessi via app}{19}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Obbiettivo}{19}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Richieste}{19}{subsection.6.1.1}%
-\contentsline {section}{\numberline {6.2}Diagrammi}{20}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Activity diagram}{20}{subsection.6.2.1}%
-\contentsline {section}{\numberline {6.3}GSA080}{20}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Funzionalità}{20}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Funzioni principali}{20}{subsection.6.3.2}%
-\contentsline {section}{\numberline {6.4}GSA081}{22}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Funzionalità}{22}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Funzioni principali}{23}{subsection.6.4.2}%
-\contentsline {section}{\numberline {6.5}GSA082}{25}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}Funzionalità}{25}{subsection.6.5.1}%
-\contentsline {subsection}{\numberline {6.5.2}Funzioni principali}{25}{subsection.6.5.2}%
-\contentsline {section}{\numberline {6.6}GSA083}{27}{section.6.6}%
-\contentsline {section}{\numberline {6.7}GSA084}{27}{section.6.7}%
-\contentsline {subsection}{\numberline {6.7.1}Funzionalità}{27}{subsection.6.7.1}%
-\contentsline {subsection}{\numberline {6.7.2}Funzioni principali}{28}{subsection.6.7.2}%
-\contentsline {chapter}{\numberline {A}Titolo della prima appendice}{31}{appendix.Alph1}%
-\contentsline {chapter}{\numberline {B}Struttura delle tabelle utilizzate}{33}{appendix.Alph2}%
-\contentsline {subsection}{\numberline {B.0.1}Tabelle dei progetti di apprendimento}{33}{subsection.Alph2.0.1}%
-\contentsline {subsection}{\numberline {B.0.2}Tabelle progetto finale}{37}{subsection.Alph2.0.2}%
+\contentsline {section}{\numberline {5.2}ST2, schermata di gestione di clienti e fornitori tramite gestionale unigea}{17}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Diagramma dei casi d'uso}{17}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Diagramma di stato}{18}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Flusso del programma}{18}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Struttura del programma}{19}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}ST2010}{20}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}ST2011}{21}{subsection.5.2.6}%
+\contentsline {subsection}{\numberline {5.2.7}ST2012}{22}{subsection.5.2.7}%
+\contentsline {subsection}{\numberline {5.2.8}ST2014}{22}{subsection.5.2.8}%
+\contentsline {subsection}{\numberline {5.2.9}ST2015 e ST2016}{23}{subsection.5.2.9}%
+\contentsline {section}{\numberline {5.3}Progetto 2, visualizzazione interattiva degli ordini tramite l'utilizzo di quickvision}{25}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Preparazione del progetto}{25}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Entità}{26}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Configurazione di tabelle e grafici}{26}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Creazione di uno schema}{28}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Pulsanti}{28}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}Conclusione}{29}{subsection.5.3.6}%
+\contentsline {chapter}{\numberline {6}Programma finale, richieste ferie e permessi via app}{31}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Obbiettivo}{31}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Richieste}{31}{subsection.6.1.1}%
+\contentsline {section}{\numberline {6.2}Progettazione}{32}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Diagramma dei casi d'uso}{32}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Diagramma degli stati}{32}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Flusso del programma}{33}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}GSA080}{33}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Funzionalità}{33}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Funzioni principali}{34}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.4}GSA081}{35}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Funzionalità}{35}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Funzioni principali}{36}{subsection.6.4.2}%
+\contentsline {section}{\numberline {6.5}GSA082}{38}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Funzionalità}{38}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Funzioni principali}{38}{subsection.6.5.2}%
+\contentsline {section}{\numberline {6.6}GSA083}{40}{section.6.6}%
+\contentsline {section}{\numberline {6.7}GSA084}{40}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Funzionalità}{40}{subsection.6.7.1}%
+\contentsline {subsection}{\numberline {6.7.2}Funzioni principali}{41}{subsection.6.7.2}%
+\contentsline {section}{\numberline {6.8}Adattamento per mobile}{42}{section.6.8}%
+\contentsline {chapter}{\numberline {A}Protocollo GSB}{45}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Nomenclatura archivi}{45}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Nomenclatura programmi}{45}{section.Alph1.2}%
+\contentsline {section}{\numberline {A.3}Nomenclatura campi}{46}{section.Alph1.3}%
+\contentsline {section}{\numberline {A.4}Nomenclatura record}{46}{section.Alph1.4}%
+\contentsline {chapter}{\numberline {B}Struttura delle tabelle utilizzate}{47}{appendix.Alph2}%
+\contentsline {section}{\numberline {B.1}Tabelle dei progetti di apprendimento}{47}{section.Alph2.1}%
+\contentsline {section}{\numberline {B.2}Tabelle progetto finale}{52}{section.Alph2.2}%
